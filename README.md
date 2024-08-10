@@ -16,7 +16,7 @@
 <td width="50%">
 <h3 align="center">Hypothesis Testing on World Cup goals</h3>
 <div align="center">
-<a href="" target="_blank"><img src="https://i.imgur.com/vTTolEn.jpeg" width="400" alt="Hypothesis Testing on World Cup goals"></a>
+<a href="https://github.com/jorgealarcon07/project1/blob/main/5_Hypothesis_testing.ipynb" target="_blank"><img src="https://i.imgur.com/vTTolEn.jpeg" width="400" alt="Hypothesis Testing on World Cup goals"></a>
 <p>
 <a href="" target="_blank">
 <img src="https://img.shields.io/badge/CÓDIGO-ff9?style=for-the-badge&logo=github&logoColor=black">
