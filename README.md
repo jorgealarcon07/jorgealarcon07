@@ -18,7 +18,7 @@
 <div align="center">
 <a href="https://github.com/jorgealarcon07/project1/blob/main/5_Hypothesis_testing.ipynb" target="_blank"><img src="https://i.imgur.com/vTTolEn.jpeg" width="400" alt="Hypothesis Testing on World Cup goals"></a>
 <p>
-<a href="" target="_blank">
+<a href="https://github.com/jorgealarcon07/project1/blob/main/5_Hypothesis_testing.ipynb" target="_blank">
 <img src="https://img.shields.io/badge/CÓDIGO-ff9?style=for-the-badge&logo=github&logoColor=black">
 </a>
 </p>
@@ -32,7 +32,7 @@
 <div align="center">                                       
 <a href="https://github.com/jorgealarcon07/project1/blob/main/4_crimes_los_angeles.ipynb" target="_blank"><img src="https://i.imgur.com/GgQBo3w.jpeg" width="400" alt="Los Angeles Crime Data Analysis"></a>
 <p>
-<a href="" target="_blank">
+<a href="https://github.com/jorgealarcon07/project1/blob/main/4_crimes_los_angeles.ipynb" target="_blank">
 <img src="https://img.shields.io/badge/C%C3%93DIGO-80ffaa?style=for-the-badge&logo=github&logoColor=black">
 </a>
 </p>
