@@ -17,7 +17,7 @@
         <h3 align="center">Tracking Performance in a Financial Fraud Detection System</h3>
         <div align="center">
         <a href="https://github.com/jorgealarcon07/jorgealarcon07/blob/bba214d6b4d260b0c9110de7ac86c5cf9a65b055/Tracking%20Performance%20in%20a%20Financial%20Fraud%20Detection%20System/Monitoring_A_Detection_Model.ipynb" target="_blank">
-            <img src="https://i.imgur.com/yTjctmo.jpeg" width="300" alt="Main Project">
+            <img src="https://i.imgur.com/yTjctmo.jpeg" width="400" alt="Main Project">
         </a>
         <p>
         <a href="https://github.com/jorgealarcon07/jorgealarcon07/blob/bba214d6b4d260b0c9110de7ac86c5cf9a65b055/Tracking%20Performance%20in%20a%20Financial%20Fraud%20Detection%20System/Monitoring_A_Detection_Model.ipynb" target="_blank" style="text-decoration:none;">
