@@ -21,10 +21,9 @@
         </a>
         <p>
         <a href="https://github.com/jorgealarcon07/jorgealarcon07/blob/bba214d6b4d260b0c9110de7ac86c5cf9a65b055/Tracking%20Performance%20in%20a%20Financial%20Fraud%20Detection%20System/Monitoring_A_Detection_Model.ipynb" target="_blank" style="text-decoration:none;">
-        <button style="background-color: #FFD700; color: white; border: 2px solid black; padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 5px;">
+        <button style="background-color: #ff9; color: black; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer;">
             CODE
         </button>
-
         </a>
         </p>
         <p>
@@ -43,7 +42,7 @@
         </a>
         <p>
         <a href="https://github.com/jorgealarcon07/jorgealarcon07/blob/main/5_Hypothesis_testing.ipynb" target="_blank" style="text-decoration:none;">
-        <button style="background-color: #FFD700; color: white; border: 2px solid black; padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 5px;">
+        <button style="background-color: #ff9; color: black; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer;">
             CODE
         </button>
         </a>
@@ -64,7 +63,7 @@
         </a>
         <p>
         <a href="https://github.com/jorgealarcon07/jorgealarcon07/blob/main/4_crimes_los_angeles.ipynb" target="_blank" style="text-decoration:none;">
-        <button style="background-color: #FFD700; color: white; border: 2px solid black; padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 5px;">
+        <button style="background-color: #ff9; color: black; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer;">
             CODE
         </button>
         </a>
