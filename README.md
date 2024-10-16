@@ -30,11 +30,11 @@
   <tr>
     <td width="50%" align="center">
       <h3>Hypothesis Testing on World Cup Goals</h3>
-      <a href="https://github.com/jorgealarcon07/project1/blob/main/5_Hypothesis_testing.ipynb" target="_blank">
+      <a href="https://github.com/jorgealarcon07/jorgealarcon07/blob/main/5_Hypothesis_testing.ipynb" target="_blank">
         <img src="https://i.imgur.com/vTTolEn.jpeg" width="300" alt="Hypothesis Testing on World Cup goals">
       </a>
       <p>
-        <a href="https://github.com/jorgealarcon07/project1/blob/main/5_Hypothesis_testing.ipynb" target="_blank">
+        <a href="https://github.com/jorgealarcon07/jorgealarcon07/blob/main/5_Hypothesis_testing.ipynb" target="_blank">
           <img src="https://img.shields.io/badge/CÓDIGO-ff9?style=for-the-badge&logo=github&logoColor=black">
         </a>
       </p>
@@ -42,11 +42,11 @@
     </td>
     <td width="50%" align="center">
       <h3>Los Angeles Crime Data Analysis</h3>
-      <a href="https://github.com/jorgealarcon07/project1/blob/main/4_crimes_los_angeles.ipynb" target="_blank">
+      <a href="https://github.com/jorgealarcon07/jorgealarcon07/blob/main/4_crimes_los_angeles.ipynb" target="_blank">
         <img src="https://i.imgur.com/GgQBo3w.jpeg" width="300" alt="Los Angeles Crime Data Analysis">
       </a>
       <p>
-        <a href="https://github.com/jorgealarcon07/project1/blob/main/4_crimes_los_angeles.ipynb" target="_blank">
+        <a href="https://github.com/jorgealarcon07/jorgealarcon07/blob/main/4_crimes_los_angeles.ipynb" target="_blank">
           <img src="https://img.shields.io/badge/CÓDIGO-80ffaa?style=for-the-badge&logo=github&logoColor=black">
         </a>
       </p>
