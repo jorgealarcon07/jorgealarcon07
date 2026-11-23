@@ -18,7 +18,7 @@ I built four independent projects for Faro, a fictional retail and payments comp
 
 The totals matched an independent calculation across 1,798 groups of transactions by date and type. Of 1,067,371 historical rows, 243,007 lacked a customer ID, so the close was published as provisional.
 
-[Case study](https://github.com/jorgealarcon07/faro-data-foundation/blob/main/CASE_STUDY.md) · [Interactive report (Spanish)](https://jorgealarcon07.github.io/jorgealarcon07/cierre-de-ventas/)
+[Case study](https://github.com/jorgealarcon07/faro-data-foundation/blob/main/CASE_STUDY.md) · [Interactive report](https://jorgealarcon07.github.io/jorgealarcon07/cierre-de-ventas/index.en.html)
 
 ### [Payment reconciliation](https://github.com/jorgealarcon07/faro-reconciliation) · Data Engineering
 
@@ -28,7 +28,7 @@ The totals matched an independent calculation across 1,798 groups of transaction
 
 In a test with 100,000 simulated event deliveries, the pipeline detected all 325 payout batches with deliberately introduced discrepancies and kept them open.
 
-[Case study](https://github.com/jorgealarcon07/faro-reconciliation/blob/main/CASE_STUDY.md) · [Interactive report (Spanish)](https://jorgealarcon07.github.io/jorgealarcon07/conciliacion-de-pagos/)
+[Case study](https://github.com/jorgealarcon07/faro-reconciliation/blob/main/CASE_STUDY.md) · [Interactive report](https://jorgealarcon07.github.io/jorgealarcon07/conciliacion-de-pagos/index.en.html)
 
 ### [Account review prioritization](https://github.com/jorgealarcon07/faro-risk-policy) · Data Science
 
@@ -38,7 +38,7 @@ In a test with 100,000 simulated event deliveries, the pipeline detected all 325
 
 Among the first 300 of 6,000 historical test accounts, logistic regression surfaced 232 observed defaults, gradient boosting surfaced 227 and the overdue-payment rule surfaced 215.
 
-[Case study](https://github.com/jorgealarcon07/faro-risk-policy/blob/main/CASE_STUDY.md) · [Interactive report (Spanish)](https://jorgealarcon07.github.io/jorgealarcon07/revision-de-riesgo/)
+[Case study](https://github.com/jorgealarcon07/faro-risk-policy/blob/main/CASE_STUDY.md) · [Interactive report](https://jorgealarcon07.github.io/jorgealarcon07/revision-de-riesgo/index.en.html)
 
 ### [Payment reminder experiment](https://github.com/jorgealarcon07/faro-experiment-lab) · Data Science
 
@@ -48,4 +48,4 @@ Among the first 300 of 6,000 historical test accounts, logistic regression surfa
 
 In a favorable scenario with 20,000 simulated accounts, those assigned a reminder paid at a rate 3.30 percentage points higher. Removing 3,250 outcomes caused the system to block the recommendation.
 
-[Case study](https://github.com/jorgealarcon07/faro-experiment-lab/blob/main/CASE_STUDY.md) · [Interactive report (Spanish)](https://jorgealarcon07.github.io/jorgealarcon07/experimento-de-recordatorios/)
+[Case study](https://github.com/jorgealarcon07/faro-experiment-lab/blob/main/CASE_STUDY.md) · [Interactive report](https://jorgealarcon07.github.io/jorgealarcon07/experimento-de-recordatorios/index.en.html)
