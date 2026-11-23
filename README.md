@@ -1,51 +1,51 @@
 # Jorge Alarcón
 
-**Data Engineer · Data Scientist** | Físico con enfoque en sistemas complejos. [LinkedIn](https://www.linkedin.com/in/jorgealarconp/)
+**Data Engineer · Data Scientist** | Physicist with a focus on complex systems. [Español](README.es.md) · [LinkedIn](https://www.linkedin.com/in/jorgealarconp/)
 
-Trabajo con **Python y SQL** para construir procesos de datos confiables y evaluar decisiones con modelos y experimentos.
+I use **Python and SQL** to build reliable data pipelines and evaluate decisions with models and experiments.
 
 ![Python](assets/stack/python.svg) ![SQL · PostgreSQL](assets/stack/postgresql.svg) ![dbt](assets/stack/dbt.svg) ![scikit-learn](assets/stack/scikitlearn.svg) ![MLflow](assets/stack/mlflow.svg)
 
-## Proyectos
+## Projects
 
-Faro es una empresa ficticia de comercio y pagos. Estos cuatro casos se pueden explorar por separado. [Ver los cuatro informes en el navegador](https://jorgealarcon07.github.io/jorgealarcon07/)
+I built four independent projects for Faro, a fictional retail and payments company. [Explore the portfolio in English](https://jorgealarcon07.github.io/jorgealarcon07/en/)
 
-### [Cierre de ventas](https://github.com/jorgealarcon07/faro-data-foundation) · Data Engineering
+### [Sales close](https://github.com/jorgealarcon07/faro-data-foundation) · Data Engineering
 
-**¿Qué ventas podemos dar por cerradas?** Construí un proceso que separa ventas, cancelaciones y ajustes, comprueba los totales y avisa a finanzas cuando faltan datos.
+**Which sales figures are ready to use?** I built a pipeline that separates sales, cancellations and adjustments, checks the totals and flags missing data for the finance team.
 
 ![Python](assets/stack/python.svg) ![SQL · PostgreSQL](assets/stack/postgresql.svg) ![dbt](assets/stack/dbt.svg) ![Parquet](assets/stack/apacheparquet.svg)
 
-El cierre cuadró en 1.798 grupos de fecha y tipo de movimiento. De 1.067.371 filas, 243.007 carecían de cliente identificado, así que el informe quedó provisional.
+The totals matched an independent calculation across 1,798 groups of transactions by date and type. Of 1,067,371 historical rows, 243,007 lacked a customer ID, so the close was published as provisional.
 
-[Ver el informe](https://jorgealarcon07.github.io/jorgealarcon07/cierre-de-ventas/) · [Explorar el proyecto](https://github.com/jorgealarcon07/faro-data-foundation)
+[Case study](https://github.com/jorgealarcon07/faro-data-foundation/blob/main/CASE_STUDY.md) · [Interactive report (Spanish)](https://jorgealarcon07.github.io/jorgealarcon07/cierre-de-ventas/)
 
-### [Conciliación de pagos](https://github.com/jorgealarcon07/faro-reconciliation) · Data Engineering
+### [Payment reconciliation](https://github.com/jorgealarcon07/faro-reconciliation) · Data Engineering
 
-**¿Qué abonos cuadran con lo que se cobró?** Construí una conciliación que compara cobros y abonos, reconoce mensajes repetidos y entrega a tesorería una lista de diferencias con su historial.
+**Which processor payouts match the underlying payments?** I built a pipeline that reconciles payments and payouts, handles duplicate messages and gives treasury a queue of discrepancies to investigate.
 
-![Python](assets/stack/python.svg) ![SQL · PostgreSQL](assets/stack/postgresql.svg) ![API HTTP](assets/stack/http.svg) ![pytest](assets/stack/pytest.svg)
+![Python](assets/stack/python.svg) ![SQL · PostgreSQL](assets/stack/postgresql.svg) ![HTTP API](assets/stack/http.svg) ![pytest](assets/stack/pytest.svg)
 
-En una prueba de 100.000 entregas simuladas, detectó los 325 lotes con diferencias sembradas. Ninguno de esos lotes se marcó como conciliado.
+In a test with 100,000 simulated event deliveries, the pipeline detected all 325 payout batches with deliberately introduced discrepancies and kept them open.
 
-[Ver el informe](https://jorgealarcon07.github.io/jorgealarcon07/conciliacion-de-pagos/) · [Explorar el proyecto](https://github.com/jorgealarcon07/faro-reconciliation)
+[Case study](https://github.com/jorgealarcon07/faro-reconciliation/blob/main/CASE_STUDY.md) · [Interactive report (Spanish)](https://jorgealarcon07.github.io/jorgealarcon07/conciliacion-de-pagos/)
 
-### [Priorización de cuentas](https://github.com/jorgealarcon07/faro-risk-policy) · Data Science
+### [Account review prioritization](https://github.com/jorgealarcon07/faro-risk-policy) · Data Science
 
-**Si solo podemos revisar 300 cuentas, ¿por cuáles empezamos?** Construí una cola de revisión y comparé una regla de atraso con dos modelos. El equipo de riesgo puede ver qué cambia al dedicar más o menos revisiones.
+**If the risk team can review only 300 accounts, where should it start?** I built a review queue and compared an overdue-payment rule with two models at different review capacities.
 
 ![Python](assets/stack/python.svg) ![scikit-learn](assets/stack/scikitlearn.svg) ![MLflow](assets/stack/mlflow.svg) ![SQL · PostgreSQL](assets/stack/postgresql.svg)
 
-Entre las primeras 300 de 6.000 cuentas de prueba hubo 232 impagos históricos con regresión logística, 227 con boosting y 215 con la regla de atraso.
+Among the first 300 of 6,000 historical test accounts, logistic regression surfaced 232 observed defaults, gradient boosting surfaced 227 and the overdue-payment rule surfaced 215.
 
-[Ver el informe](https://jorgealarcon07.github.io/jorgealarcon07/revision-de-riesgo/) · [Explorar el proyecto](https://github.com/jorgealarcon07/faro-risk-policy)
+[Case study](https://github.com/jorgealarcon07/faro-risk-policy/blob/main/CASE_STUDY.md) · [Interactive report (Spanish)](https://jorgealarcon07.github.io/jorgealarcon07/revision-de-riesgo/)
 
-### [Experimento de recordatorios](https://github.com/jorgealarcon07/faro-experiment-lab) · Data Science
+### [Payment reminder experiment](https://github.com/jorgealarcon07/faro-experiment-lab) · Data Science
 
-**¿Vale la pena enviar otro recordatorio de pago?** Construí un ensayo A/B que mide pagos a 14 días, costo de envío y quejas. Operaciones recibe una recomendación y puede ver qué datos la sustentan.
+**Is an extra payment reminder worth sending?** I built an A/B test that measures payment within 14 days, messaging costs and complaints, then gives operations a recommendation backed by those results.
 
 ![Python](assets/stack/python.svg) ![SciPy](assets/stack/scipy.svg) ![statsmodels](assets/stack/statsmodels.svg) ![SQL · PostgreSQL](assets/stack/postgresql.svg)
 
-En el escenario favorable de 20.000 cuentas simuladas, el grupo asignado al recordatorio pagó 3,30 puntos porcentuales más. Al retirar 3.250 resultados, el sistema bloqueó la recomendación.
+In a favorable scenario with 20,000 simulated accounts, those assigned a reminder paid at a rate 3.30 percentage points higher. Removing 3,250 outcomes caused the system to block the recommendation.
 
-[Ver el informe](https://jorgealarcon07.github.io/jorgealarcon07/experimento-de-recordatorios/) · [Explorar el proyecto](https://github.com/jorgealarcon07/faro-experiment-lab)
+[Case study](https://github.com/jorgealarcon07/faro-experiment-lab/blob/main/CASE_STUDY.md) · [Interactive report (Spanish)](https://jorgealarcon07.github.io/jorgealarcon07/experimento-de-recordatorios/)

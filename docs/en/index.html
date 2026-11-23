@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Four portfolio projects by Jorge Alarcón covering data engineering, credit risk and A/B testing.">
+  <meta name="theme-color" content="#133f38">
+  <title>Jorge Alarcón · Data Engineering and Data Science</title>
+  <link rel="stylesheet" href="../assets/portfolio.css">
+</head>
+<body>
+  <a href="#projects" class="skip">Skip to projects</a>
+  <header>
+    <div class="wrap mast">
+      <strong>Jorge Alarcón</strong>
+      <nav aria-label="Language and contact">
+        <a href="../index.html" hreflang="es" lang="es">Español</a>
+        <a href="https://github.com/jorgealarcon07">GitHub</a>
+        <a href="https://www.linkedin.com/in/jorgealarconp/">LinkedIn</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="intro">
+      <div class="wrap">
+        <p class="eyebrow">Portfolio · Data Engineer / Data Scientist</p>
+        <h1>From closing the books to testing payment decisions</h1>
+        <p class="lead">I'm a physicist. For Faro, a fictional retail and payments company, I built four tools for finance, treasury, risk and operations. Each interactive report runs in your browser.</p>
+        <p class="core"><strong>Core stack</strong> Python · SQL / PostgreSQL · dbt · scikit-learn · MLflow</p>
+      </div>
+    </section>
+    <section id="projects" aria-label="Four Faro projects" class="wrap grid">
+      <article>
+        <a class="shot" href="../cierre-de-ventas/index.html" aria-label="Open the Spanish report for data foundation">
+          <img src="../assets/informes/cierre-de-ventas.png" loading="lazy" alt="Sales quality report showing why the close was marked provisional">
+        </a>
+        <div class="copy">
+          <p class="meta">Data Engineering <span>·</span> Historical data · United Kingdom</p>
+          <h2>Which sales figures are ready to use?</h2>
+          <p>I built a pipeline that separates sales, cancellations and adjustments, checks the totals and flags missing data for the finance team.</p>
+          <div class="chips">
+            <img src="../assets/stack/python.svg" width="87" height="30" alt="Python">
+            <img src="../assets/stack/postgresql.svg" width="157" height="30" alt="SQL · PostgreSQL">
+            <img src="../assets/stack/dbt.svg" width="65" height="30" alt="dbt">
+            <img src="../assets/stack/apacheparquet.svg" width="93" height="30" alt="Parquet">
+          </div>
+          <p class="result">The totals matched an independent calculation across 1,798 groups by date and transaction type. Of 1,067,371 rows, 243,007 lacked a customer ID, so the close was published as provisional.</p>
+          <div class="actions">
+            <a href="https://github.com/jorgealarcon07/faro-data-foundation/blob/main/CASE_STUDY.md">Case study</a>
+            <a href="https://github.com/jorgealarcon07/faro-data-foundation">Repository</a>
+            <a href="../cierre-de-ventas/index.html">Interactive report (Spanish) <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </article>
+      <article>
+        <a class="shot" href="../conciliacion-de-pagos/index.html" aria-label="Open the Spanish report for reconciliation">
+          <img src="../assets/informes/conciliacion-de-pagos.png" loading="lazy" alt="Exception queue showing the payout batch and reason for review">
+        </a>
+        <div class="copy">
+          <p class="meta">Data Engineering <span>·</span> Simulated payments · COP</p>
+          <h2>Which payouts match the underlying payments?</h2>
+          <p>I built a pipeline that reconciles payments and payouts, handles duplicate messages and gives treasury a queue of discrepancies to investigate.</p>
+          <div class="chips">
+            <img src="../assets/stack/python.svg" width="87" height="30" alt="Python">
+            <img src="../assets/stack/postgresql.svg" width="157" height="30" alt="SQL · PostgreSQL">
+            <img src="../assets/stack/http.svg" width="102" height="30" alt="HTTP API">
+            <img src="../assets/stack/pytest.svg" width="83" height="30" alt="pytest">
+          </div>
+          <p class="result">The pipeline detected all 325 payout batches with deliberately introduced discrepancies in a test with 100,000 simulated event deliveries.</p>
+          <div class="actions">
+            <a href="https://github.com/jorgealarcon07/faro-reconciliation/blob/main/CASE_STUDY.md">Case study</a>
+            <a href="https://github.com/jorgealarcon07/faro-reconciliation">Repository</a>
+            <a href="../conciliacion-de-pagos/index.html">Interactive report (Spanish) <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </article>
+      <article>
+        <a class="shot" href="../revision-de-riesgo/index.html" aria-label="Open the Spanish report for risk policy">
+          <img src="../assets/informes/revision-de-riesgo.png" loading="lazy" alt="Comparison of observed defaults at different review capacities">
+        </a>
+        <div class="copy">
+          <p class="meta">Data Science <span>·</span> Historical data · Taiwan, 2005</p>
+          <h2>Which 300 accounts should the risk team review?</h2>
+          <p>I built a review queue and compared an overdue-payment rule with two models to see what changes when the team can review more or fewer accounts.</p>
+          <div class="chips">
+            <img src="../assets/stack/python.svg" width="87" height="30" alt="Python">
+            <img src="../assets/stack/scikitlearn.svg" width="118" height="30" alt="scikit-learn">
+            <img src="../assets/stack/mlflow.svg" width="90" height="30" alt="MLflow">
+            <img src="../assets/stack/postgresql.svg" width="157" height="30" alt="SQL · PostgreSQL">
+          </div>
+          <p class="result">Of the first 300 among 6,000 historical test accounts, logistic regression surfaced 232 observed defaults, gradient boosting 227 and the overdue-payment rule 215.</p>
+          <div class="actions">
+            <a href="https://github.com/jorgealarcon07/faro-risk-policy/blob/main/CASE_STUDY.md">Case study</a>
+            <a href="https://github.com/jorgealarcon07/faro-risk-policy">Repository</a>
+            <a href="../revision-de-riesgo/index.html">Interactive report (Spanish) <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </article>
+      <article>
+        <a class="shot" href="../experimento-de-recordatorios/index.html" aria-label="Open the Spanish report for experiment lab">
+          <img src="../assets/informes/experimento-de-recordatorios.png" loading="lazy" alt="Experiment decision showing the payment effect and complaint guardrail">
+        </a>
+        <div class="copy">
+          <p class="meta">Data Science <span>·</span> Simulated experiment · COP</p>
+          <h2>Is an extra payment reminder worth sending?</h2>
+          <p>I built an A/B test that measures payment within 14 days, messaging costs and complaints, then gives operations a recommendation backed by those results.</p>
+          <div class="chips">
+            <img src="../assets/stack/python.svg" width="87" height="30" alt="Python">
+            <img src="../assets/stack/scipy.svg" width="79" height="30" alt="SciPy">
+            <img src="../assets/stack/statsmodels.svg" width="124" height="30" alt="statsmodels">
+            <img src="../assets/stack/postgresql.svg" width="157" height="30" alt="SQL · PostgreSQL">
+          </div>
+          <p class="result">In a favorable scenario with 20,000 simulated accounts, the payment rate rose by 3.30 percentage points. Removing 3,250 outcomes caused the system to block the recommendation.</p>
+          <div class="actions">
+            <a href="https://github.com/jorgealarcon07/faro-experiment-lab/blob/main/CASE_STUDY.md">Case study</a>
+            <a href="https://github.com/jorgealarcon07/faro-experiment-lab">Repository</a>
+            <a href="../experimento-de-recordatorios/index.html">Interactive report (Spanish) <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap">
+      <span>Jorge Alarcón</span>
+      <a href="../fuentes.html" hreflang="es">Data sources and credits (Spanish)</a>
+      <a href="https://github.com/jorgealarcon07">GitHub profile</a>
+    </div>
+  </footer>
+</body>
+</html>
