@@ -1,0 +1,11 @@
+payout_id,state,expected_minor,declared_minor,difference_minor,finalized,statement_effect_id
+syn_p1,reconciled,8700,8700,0,True,syn_e_1_revision
+syn_p10,reconciled,10000,10000,0,True,syn_e_10_payout
+syn_p2,reconciled,4000,4000,0,True,syn_e_2_payout
+syn_p3,reconciled,12000,12000,0,True,syn_e_3_payout
+syn_p4,provisional,10000,10000,0,False,syn_e_4_payout
+syn_p5,exception,0,5000,5000,True,syn_e_5_payout
+syn_p6,exception,0,0,0,True,syn_e_6_payout
+syn_p7,exception,4000,4000,0,True,syn_e_7_payout
+syn_p8,reconciled,0,0,0,True,syn_e_8_payout
+syn_p9,provisional,10000,,,False,

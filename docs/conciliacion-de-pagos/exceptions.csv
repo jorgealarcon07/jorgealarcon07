@@ -1,0 +1,8 @@
+issue_id,payout_id,code,subject,blocking,currency,opened_at,difference_minor
+47206174a47187bba5fd,syn_p5,missing_invoice,syn_5_a,True,COP,2026-11-18T00:27:58.388129+00:00,5000
+5092a7a762db9b426624,syn_p5,missing_declared_effect,syn_e_5_a,True,COP,2026-11-18T00:27:58.388129+00:00,5000
+7295d567d323e3d3200f,syn_p5,payout_mismatch,syn_p5,True,COP,2026-11-18T00:27:58.388129+00:00,5000
+6003f609e2ee4f651ecc,syn_p6,event_payload_conflict,syn_6_a,True,COP,2026-11-18T00:27:58.392778+00:00,0
+c2fc609e0c574fff1b59,syn_p6,missing_declared_effect,syn_e_6_a,True,COP,2026-11-18T00:27:58.392778+00:00,0
+33d337e803e6fa4177d5,syn_p7,refunds_exceed_capture,syn_7_r,True,COP,2026-11-18T00:27:58.396653+00:00,0
+7192726bab0776006e74,syn_p7,missing_declared_effect,syn_e_7_r,True,COP,2026-11-18T00:27:58.396653+00:00,0

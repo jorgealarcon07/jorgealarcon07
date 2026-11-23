@@ -1,0 +1,35 @@
+{
+  "as_of": "2005-09-30",
+  "contract_version": "1.0",
+  "data_kind": "real_public",
+  "dataset_sha256": "56c885f84457f6680f8438f02bfcdac9579323d8a94465ee5f26e32baa727602",
+  "git_sha": "2df7046fc879d9cfd8cffad3cce1e91d8161d9f6",
+  "outputs": {
+    "model/boost.joblib": "f3559198b5ca484104c435fee519993eaa0069168208b4e47ae3dbeef27e989f",
+    "model/logistic.joblib": "79514856360f8e428121f158d464bdcb7dfb500fee9ed06acca7ed41235dfc6b",
+    "model/reference.json": "245a8640b24f2ea91123391bc8da32c663458bfaca881c553bb1a9142b184efe",
+    "model/release.json": "dfaa7a1eed32a027f39fa4e38e3b5974c5deb2b4eaf011d4959abc8376cd6bc1",
+    "monitor.json": "d90a481945d154d2d51f1377576e2c3d28a382cccf33284a7e85dcabca8d4c42",
+    "policy_report.json": "c3202d0ae460a8a744b1f1b555f584e9bc214fcee4bb505599280b38d807bc9a",
+    "profile.json": "d8550154915e6046782b22cdee2690dcaa4cd9285750486929e02a86aa51c8c3",
+    "selection_frozen.json": "d7aaf16354c2620337496d4cbef9de13052502f7964d8e7258543e43077c4c8c",
+    "splits.csv": "d0193dc7cb67b770f30703ba4d32cbb276eb1121b0be565862acf97559adf04a"
+  },
+  "python": "3.12.14",
+  "rows": 30000,
+  "run_id": "24a355b159b14eb9955419bad14913c1",
+  "seed": 2026,
+  "source_namespace": "uci_tw_credit_2005",
+  "timezone": "unavailable",
+  "versions": {
+    "joblib": "1.6.0",
+    "mlflow-skinny": "3.6.0",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "psycopg": "3.3.9",
+    "scikit-learn": "1.7.2",
+    "scipy": "1.15.3",
+    "threadpoolctl": "3.8.0",
+    "xlrd": "2.0.2"
+  }
+}

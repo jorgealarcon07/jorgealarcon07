@@ -1,0 +1,37 @@
+:root{color-scheme:light;--ink:#172c2b;--forest:#133f38;--line:#cfd8d0;--paper:#f3f5ef;--muted:#405956}
+*{box-sizing:border-box}
+body{margin:0;color:var(--ink);background:var(--paper);font:1rem/1.58 "Segoe UI",Arial,sans-serif}
+a{color:#0d5b4f;text-decoration-thickness:.08em;text-underline-offset:.2em}
+a:hover{text-decoration-thickness:.15em}
+a:focus-visible{outline:3px solid #d18321;outline-offset:4px}
+.wrap{width:min(73rem,calc(100% - 3rem));margin-inline:auto}
+header,.intro{background:var(--forest);color:#f2f7ec}
+.mast,nav,.actions,footer .wrap{display:flex;align-items:center;gap:1.4rem;flex-wrap:wrap}
+.mast{justify-content:space-between;padding-block:1rem;border-bottom:1px solid #54746a}
+.mast strong{letter-spacing:.02em}
+header a{color:#e1efda}
+.intro{padding:clamp(2.25rem,5vw,4.25rem) 0 2.75rem}
+.eyebrow,.meta,.core strong{font-weight:650}
+.eyebrow{margin:0;color:#c7e6b6}
+h1,h2{line-height:1.1;text-wrap:balance}
+h1{max-width:19ch;font:500 clamp(2.5rem,5.8vw,4.9rem)/1.03 Georgia,"Times New Roman",serif;letter-spacing:-.045em;margin:.6rem 0 1.1rem}
+.lead{font-size:clamp(1rem,1.7vw,1.2rem);max-width:68ch;color:#e1eee3}
+.core{margin:1.5rem 0 0;color:#e8f0dd}
+.core strong{margin-right:.65rem}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.6rem;padding-block:2.25rem 3rem}
+article{border:1px solid var(--line);background:#fff;border-radius:.55rem;overflow:hidden;display:flex;flex-direction:column}
+.shot{display:block;background:#e3eae4;border-bottom:1px solid var(--line)}
+.shot img{width:100%;height:auto;aspect-ratio:2.65;object-fit:cover;object-position:50% 0;display:block}
+.copy{padding:clamp(1.05rem,2.3vw,1.65rem);display:flex;flex-direction:column;flex:1}
+.meta{font-size:.82rem;color:var(--muted);margin:0 0 .55rem}.meta span{padding-inline:.15em}
+h2{margin:0;font:600 clamp(1.4rem,2.5vw,1.85rem)/1.19 Georgia,serif}
+.chips{display:flex;flex-wrap:wrap;gap:.35rem}
+.chips img{display:block}
+.result{border-left:3px solid #9ab777;padding-left:.85rem}
+.actions{margin-top:auto;gap:1.05rem;font-weight:600}
+footer{border-top:1px solid var(--line);padding-block:1rem}
+footer span{margin-right:auto;font-weight:650}
+.skip{position:absolute;left:10px;top:-120px;background:white;padding:.6rem;z-index:2}
+.skip:focus{top:8px}
+.sources{max-width:52rem;padding-block:3rem}.sources li{margin-block:1.3rem}
+@media(max-width:49rem){.grid{grid-template-columns:1fr}.wrap{width:min(42rem,calc(100% - 2rem))}.core strong{display:block}.intro{padding-bottom:2rem}.grid{padding-block:1.2rem 2rem}}

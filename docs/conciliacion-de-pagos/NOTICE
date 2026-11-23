@@ -1,0 +1,6 @@
+Faro reconciliation code and documentation: MIT.
+Original generated payment fixtures and their derivatives: CC0 1.0.
+https://creativecommons.org/publicdomain/zero/1.0/
+This portfolio uses a fictional processor and synthetic operations.
+Stripe documentation is cited as design context. It is not a transaction source.
+PostgreSQL retains its license. Development binaries may be obtained from EDB or Zonky.

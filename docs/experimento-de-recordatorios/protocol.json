@@ -1,0 +1,40 @@
+{
+  "aa_band": [
+    0.03,
+    0.07
+  ],
+  "allocation": 0.5,
+  "alpha": 0.05,
+  "as_at": "2026-01-01T00:00:00Z",
+  "assignment": "bernoulli",
+  "balance_cop": 50000,
+  "cost_per_attempt_cop": 100,
+  "cost_sensitivity_cop": [
+    0,
+    100,
+    250
+  ],
+  "coverage_band": [
+    0.92,
+    0.98
+  ],
+  "data_kind": "synthetic",
+  "decision": "ship iff lower payment difference > 0.01 and lower net cash > 0 and upper complaint difference < 0.005 after validity and maturity",
+  "grace_days": 2,
+  "guardrail": "complaint_within_14_days",
+  "horizon_days": 14,
+  "interval": "newcomb",
+  "max_complaint_increase": 0.005,
+  "mc_root_seed": 20261122,
+  "min_effect": 0.01,
+  "namespace": "faro_reminders_cop_synthetic",
+  "planned_accounts": 20000,
+  "power_base": 0.2,
+  "power_delta": 0.02,
+  "power_target": 0.8,
+  "primary": "full_payment_within_14_days",
+  "replicates": 1000,
+  "srm_alpha": 0.001,
+  "unit": "eligible_account",
+  "version": "1.0"
+}

@@ -1,0 +1,1042 @@
+{
+  "aa": {
+    "as_of": "2026-01-17T00:00:00+00:00",
+    "checks": {
+      "closed": true,
+      "complete_join": {
+        "C": 10024,
+        "T": 9976
+      },
+      "event_id_conflicts": 0,
+      "final_at": "2026-01-17T00:00:00+00:00",
+      "missing_outcomes": 0,
+      "orphan_rows": 0,
+      "raw_event_rows": 10502,
+      "recorded": {
+        "C": 10024,
+        "T": 9976
+      },
+      "recorded_by_arm": {
+        "C": 10024,
+        "T": 9976
+      },
+      "registered": {
+        "C": 10024,
+        "T": 9976
+      },
+      "srm_p_join": 0.734299941046208,
+      "srm_p_recorded": 0.734299941046208,
+      "srm_p_registered": 0.734299941046208,
+      "unique_attempts": 9976
+    },
+    "comparison": {
+      "control": 10024,
+      "delivered_minus_control": 0.022886607548897847,
+      "high_risk_control": 0.4932162809257781,
+      "high_risk_recipients": 0.3752481800132363,
+      "recipients": 7555
+    },
+    "estimates": {
+      "arms": {
+        "C": {
+          "attempts": 0,
+          "complained": 84,
+          "delivered": 0,
+          "n": 10024,
+          "paid": 1989
+        },
+        "T": {
+          "attempts": 9976,
+          "complained": 89,
+          "delivered": 7555,
+          "n": 9976,
+          "paid": 2008
+        }
+      },
+      "complaint": {
+        "difference": 0.0005415231191731665,
+        "hi": 0.0031404478132080935,
+        "lo": -0.0020476328025066243,
+        "rate_c": 0.008379888268156424,
+        "rate_t": 0.008921411387329591
+      },
+      "cost_sensitivity_cop": {
+        "0": {
+          "difference": 142.9648234773831,
+          "hi": 697.201370182697,
+          "lo": -411.24699169300516
+        },
+        "100": {
+          "difference": 42.964823477383106,
+          "hi": 597.201370182697,
+          "lo": -511.24699169300516
+        },
+        "250": {
+          "difference": -107.0351765226169,
+          "hi": 447.201370182697,
+          "lo": -661.2469916930052
+        }
+      },
+      "gates": {
+        "cash_above_zero": false,
+        "complaints_below_margin": true,
+        "payment_above_minimum": false
+      },
+      "net_cash_cop": {
+        "difference": 42.964823477383106,
+        "hi": 597.201370182697,
+        "lo": -511.24699169300516
+      },
+      "payment": {
+        "difference": 0.002859296469547662,
+        "hi": 0.01394402740365394,
+        "lo": -0.008224939833860103,
+        "rate_c": 0.19842378292098964,
+        "rate_t": 0.2012830793905373
+      },
+      "total_attempt_cost_cop": 997600
+    },
+    "experiment_id": "reminder-aa-20000",
+    "reasons": [
+      "payment_above_minimum",
+      "cash_above_zero"
+    ],
+    "role": "operaciones simuladas",
+    "run_id": "7d0d51bdb61b336575830e5af96abd95b855974e71bf15bf85ac4d6f14b4b965",
+    "segments": [
+      {
+        "high_risk": false,
+        "n": 5080,
+        "paid": 1409,
+        "variant": "C"
+      },
+      {
+        "high_risk": true,
+        "n": 4944,
+        "paid": 580,
+        "variant": "C"
+      },
+      {
+        "high_risk": false,
+        "n": 4971,
+        "paid": 1395,
+        "variant": "T"
+      },
+      {
+        "high_risk": true,
+        "n": 5005,
+        "paid": 613,
+        "variant": "T"
+      }
+    ],
+    "state": "hold"
+  },
+  "assignment_loss": {
+    "as_of": "2026-01-17T00:00:00+00:00",
+    "checks": {
+      "closed": true,
+      "complete_join": {
+        "C": 10042,
+        "T": 6708
+      },
+      "event_id_conflicts": 0,
+      "final_at": "2026-01-17T00:00:00+00:00",
+      "missing_outcomes": 0,
+      "orphan_rows": 0,
+      "raw_event_rows": 10483,
+      "recorded": {
+        "C": 10042,
+        "T": 6708
+      },
+      "recorded_by_arm": {
+        "C": 10042,
+        "T": 6708
+      },
+      "registered": {
+        "C": 10042,
+        "T": 9958
+      },
+      "srm_p_join": 2.4440044856278803e-146,
+      "srm_p_recorded": 2.4440044856278803e-146,
+      "srm_p_registered": 0.5525323815739747,
+      "unique_attempts": 9958
+    },
+    "comparison": null,
+    "estimates": null,
+    "experiment_id": "reminder-benefit-20000",
+    "reasons": [
+      "assignment_count",
+      "srm_recorded",
+      "srm_analytic_join"
+    ],
+    "role": "operaciones simuladas",
+    "run_id": "1e43884d3fc05eb6db26d9fc6ffcf55cd48a9d6d32bd352a6254292894e35684",
+    "segments": [],
+    "state": "invalid"
+  },
+  "benefit": {
+    "as_of": "2026-01-17T00:00:00+00:00",
+    "checks": {
+      "closed": true,
+      "complete_join": {
+        "C": 10042,
+        "T": 9958
+      },
+      "event_id_conflicts": 0,
+      "final_at": "2026-01-17T00:00:00+00:00",
+      "missing_outcomes": 0,
+      "orphan_rows": 0,
+      "raw_event_rows": 10483,
+      "recorded": {
+        "C": 10042,
+        "T": 9958
+      },
+      "recorded_by_arm": {
+        "C": 10042,
+        "T": 9958
+      },
+      "registered": {
+        "C": 10042,
+        "T": 9958
+      },
+      "srm_p_join": 0.5525323815739747,
+      "srm_p_recorded": 0.5525323815739747,
+      "srm_p_registered": 0.5525323815739747,
+      "unique_attempts": 9958
+    },
+    "comparison": {
+      "control": 10042,
+      "delivered_minus_control": 0.05932071908088113,
+      "high_risk_control": 0.5043815972913762,
+      "high_risk_recipients": 0.37253082327986214,
+      "recipients": 7543
+    },
+    "estimates": {
+      "arms": {
+        "C": {
+          "attempts": 0,
+          "complained": 74,
+          "delivered": 0,
+          "n": 10042,
+          "paid": 2003
+        },
+        "T": {
+          "attempts": 9958,
+          "complained": 70,
+          "delivered": 7543,
+          "n": 9958,
+          "paid": 2315
+        }
+      },
+      "complaint": {
+        "difference": -0.0003395259892384501,
+        "hi": 0.0020323603157193838,
+        "lo": -0.00271400873207594,
+        "rate_c": 0.0073690499900418245,
+        "rate_t": 0.007029524000803374
+      },
+      "cost_sensitivity_cop": {
+        "0": {
+          "difference": 1650.7071184735696,
+          "hi": 2220.418803315768,
+          "lo": 1080.624069109611
+        },
+        "100": {
+          "difference": 1550.7071184735696,
+          "hi": 2120.418803315768,
+          "lo": 980.6240691096109
+        },
+        "250": {
+          "difference": 1400.7071184735696,
+          "hi": 1970.418803315768,
+          "lo": 830.6240691096109
+        }
+      },
+      "gates": {
+        "cash_above_zero": true,
+        "complaints_below_margin": true,
+        "payment_above_minimum": true
+      },
+      "net_cash_cop": {
+        "difference": 1550.7071184735696,
+        "hi": 2120.418803315768,
+        "lo": 980.6240691096109
+      },
+      "payment": {
+        "difference": 0.033014142369471394,
+        "hi": 0.044408376066315355,
+        "lo": 0.021612481382192218,
+        "rate_c": 0.19946225851424018,
+        "rate_t": 0.23247640088371158
+      },
+      "total_attempt_cost_cop": 995800
+    },
+    "experiment_id": "reminder-benefit-20000",
+    "reasons": [
+      "all_prespecified_gates_pass"
+    ],
+    "role": "operaciones simuladas",
+    "run_id": "9664cf62626002efc2127e09181ad0921f5e7702f444fb61342ffa244f563743",
+    "segments": [
+      {
+        "high_risk": false,
+        "n": 4977,
+        "paid": 1421,
+        "variant": "C"
+      },
+      {
+        "high_risk": true,
+        "n": 5065,
+        "paid": 582,
+        "variant": "C"
+      },
+      {
+        "high_risk": false,
+        "n": 4978,
+        "paid": 1590,
+        "variant": "T"
+      },
+      {
+        "high_risk": true,
+        "n": 4980,
+        "paid": 725,
+        "variant": "T"
+      }
+    ],
+    "state": "ship"
+  },
+  "clock": {
+    "as_of": "2026-01-17T00:00:00+00:00",
+    "checks": {
+      "closed": true,
+      "complete_join": {
+        "C": 10042,
+        "T": 9958
+      },
+      "event_id_conflicts": 0,
+      "final_at": "2026-01-17T00:00:00+00:00",
+      "missing_outcomes": 0,
+      "orphan_rows": 0,
+      "raw_event_rows": 10483,
+      "recorded": {
+        "C": 10042,
+        "T": 9958
+      },
+      "recorded_by_arm": {
+        "C": 10042,
+        "T": 9958
+      },
+      "registered": {
+        "C": 10042,
+        "T": 9958
+      },
+      "srm_p_join": 0.5525323815739747,
+      "srm_p_recorded": 0.5525323815739747,
+      "srm_p_registered": 0.5525323815739747,
+      "unique_attempts": 9958
+    },
+    "comparison": null,
+    "estimates": null,
+    "experiment_id": "reminder-benefit-20000",
+    "reasons": [
+      "outcome_clock"
+    ],
+    "role": "operaciones simuladas",
+    "run_id": "bd49348662dee5486038aa72042cce1a17b4e78eb159d25a64fa8fe581a8d9c6",
+    "segments": [],
+    "state": "invalid"
+  },
+  "complaint": {
+    "as_of": "2026-01-17T00:00:00+00:00",
+    "checks": {
+      "closed": true,
+      "complete_join": {
+        "C": 10196,
+        "T": 9804
+      },
+      "event_id_conflicts": 0,
+      "final_at": "2026-01-17T00:00:00+00:00",
+      "missing_outcomes": 0,
+      "orphan_rows": 0,
+      "raw_event_rows": 10320,
+      "recorded": {
+        "C": 10196,
+        "T": 9804
+      },
+      "recorded_by_arm": {
+        "C": 10196,
+        "T": 9804
+      },
+      "registered": {
+        "C": 10196,
+        "T": 9804
+      },
+      "srm_p_join": 0.005573724535172133,
+      "srm_p_recorded": 0.005573724535172133,
+      "srm_p_registered": 0.005573724535172133,
+      "unique_attempts": 9804
+    },
+    "comparison": {
+      "control": 10196,
+      "delivered_minus_control": 0.05194957842327347,
+      "high_risk_control": 0.49970576696743824,
+      "high_risk_recipients": 0.38148953519978257,
+      "recipients": 7358
+    },
+    "estimates": {
+      "arms": {
+        "C": {
+          "attempts": 0,
+          "complained": 92,
+          "delivered": 0,
+          "n": 10196,
+          "paid": 2099
+        },
+        "T": {
+          "attempts": 9804,
+          "complained": 186,
+          "delivered": 7358,
+          "n": 9804,
+          "paid": 2217
+        }
+      },
+      "complaint": {
+        "difference": 0.009948701893319336,
+        "hi": 0.013285545001794134,
+        "lo": 0.006714659089410329,
+        "rate_c": 0.009023146331894862,
+        "rate_t": 0.018971848225214197
+      },
+      "cost_sensitivity_cop": {
+        "0": {
+          "difference": 1013.35729133704,
+          "hi": 1583.8787390855691,
+          "lo": 443.00065951629557
+        },
+        "100": {
+          "difference": 913.35729133704,
+          "hi": 1483.8787390855691,
+          "lo": 343.00065951629557
+        },
+        "250": {
+          "difference": 763.35729133704,
+          "hi": 1333.8787390855691,
+          "lo": 193.00065951629557
+        }
+      },
+      "gates": {
+        "cash_above_zero": true,
+        "complaints_below_margin": false,
+        "payment_above_minimum": false
+      },
+      "net_cash_cop": {
+        "difference": 913.35729133704,
+        "hi": 1483.8787390855691,
+        "lo": 343.00065951629557
+      },
+      "payment": {
+        "difference": 0.0202671458267408,
+        "hi": 0.03167757478171138,
+        "lo": 0.008860013190325911,
+        "rate_c": 0.20586504511573167,
+        "rate_t": 0.22613219094247247
+      },
+      "total_attempt_cost_cop": 980400
+    },
+    "experiment_id": "reminder-complaint-20000",
+    "reasons": [
+      "payment_above_minimum",
+      "complaints_below_margin"
+    ],
+    "role": "operaciones simuladas",
+    "run_id": "7c3282054be7de9ae9e04ab8b483692321d35d26c29c80112ac2b474cd18b023",
+    "segments": [
+      {
+        "high_risk": false,
+        "n": 5101,
+        "paid": 1481,
+        "variant": "C"
+      },
+      {
+        "high_risk": true,
+        "n": 5095,
+        "paid": 618,
+        "variant": "C"
+      },
+      {
+        "high_risk": false,
+        "n": 4806,
+        "paid": 1509,
+        "variant": "T"
+      },
+      {
+        "high_risk": true,
+        "n": 4998,
+        "paid": 708,
+        "variant": "T"
+      }
+    ],
+    "state": "hold"
+  },
+  "conflict": {
+    "as_of": "2026-01-17T00:00:00+00:00",
+    "checks": {
+      "closed": true,
+      "complete_join": {
+        "C": 10042,
+        "T": 9958
+      },
+      "event_id_conflicts": 1,
+      "final_at": "2026-01-17T00:00:00+00:00",
+      "missing_outcomes": 0,
+      "orphan_rows": 0,
+      "raw_event_rows": 10484,
+      "recorded": {
+        "C": 10042,
+        "T": 9958
+      },
+      "recorded_by_arm": {
+        "C": 10042,
+        "T": 9958
+      },
+      "registered": {
+        "C": 10042,
+        "T": 9958
+      },
+      "srm_p_join": 0.5525323815739747,
+      "srm_p_recorded": 0.5525323815739747,
+      "srm_p_registered": 0.5525323815739747,
+      "unique_attempts": 9959
+    },
+    "comparison": null,
+    "estimates": null,
+    "experiment_id": "reminder-benefit-20000",
+    "reasons": [
+      "conflicting_event_id",
+      "duplicate_attempt",
+      "attempt_count"
+    ],
+    "role": "operaciones simuladas",
+    "run_id": "ab6df2f24ca25b44e08271a3fbcade528b6b735c8ffd335bfed2dda1d3046476",
+    "segments": [],
+    "state": "invalid"
+  },
+  "duplicates": {
+    "as_of": "2026-01-17T00:00:00+00:00",
+    "checks": {
+      "closed": true,
+      "complete_join": {
+        "C": 10042,
+        "T": 9958
+      },
+      "event_id_conflicts": 0,
+      "final_at": "2026-01-17T00:00:00+00:00",
+      "missing_outcomes": 0,
+      "orphan_rows": 0,
+      "raw_event_rows": 20966,
+      "recorded": {
+        "C": 10042,
+        "T": 9958
+      },
+      "recorded_by_arm": {
+        "C": 10042,
+        "T": 9958
+      },
+      "registered": {
+        "C": 10042,
+        "T": 9958
+      },
+      "srm_p_join": 0.5525323815739747,
+      "srm_p_recorded": 0.5525323815739747,
+      "srm_p_registered": 0.5525323815739747,
+      "unique_attempts": 9958
+    },
+    "comparison": {
+      "control": 10042,
+      "delivered_minus_control": 0.05932071908088113,
+      "high_risk_control": 0.5043815972913762,
+      "high_risk_recipients": 0.37253082327986214,
+      "recipients": 7543
+    },
+    "estimates": {
+      "arms": {
+        "C": {
+          "attempts": 0,
+          "complained": 74,
+          "delivered": 0,
+          "n": 10042,
+          "paid": 2003
+        },
+        "T": {
+          "attempts": 9958,
+          "complained": 70,
+          "delivered": 7543,
+          "n": 9958,
+          "paid": 2315
+        }
+      },
+      "complaint": {
+        "difference": -0.0003395259892384501,
+        "hi": 0.0020323603157193838,
+        "lo": -0.00271400873207594,
+        "rate_c": 0.0073690499900418245,
+        "rate_t": 0.007029524000803374
+      },
+      "cost_sensitivity_cop": {
+        "0": {
+          "difference": 1650.7071184735696,
+          "hi": 2220.418803315768,
+          "lo": 1080.624069109611
+        },
+        "100": {
+          "difference": 1550.7071184735696,
+          "hi": 2120.418803315768,
+          "lo": 980.6240691096109
+        },
+        "250": {
+          "difference": 1400.7071184735696,
+          "hi": 1970.418803315768,
+          "lo": 830.6240691096109
+        }
+      },
+      "gates": {
+        "cash_above_zero": true,
+        "complaints_below_margin": true,
+        "payment_above_minimum": true
+      },
+      "net_cash_cop": {
+        "difference": 1550.7071184735696,
+        "hi": 2120.418803315768,
+        "lo": 980.6240691096109
+      },
+      "payment": {
+        "difference": 0.033014142369471394,
+        "hi": 0.044408376066315355,
+        "lo": 0.021612481382192218,
+        "rate_c": 0.19946225851424018,
+        "rate_t": 0.23247640088371158
+      },
+      "total_attempt_cost_cop": 995800
+    },
+    "experiment_id": "reminder-benefit-20000",
+    "reasons": [
+      "all_prespecified_gates_pass"
+    ],
+    "role": "operaciones simuladas",
+    "run_id": "c18e59fd5f37c8023b7ce318e9d32b2a519f693c7bf98ffe89ec5bf90cdb7c4d",
+    "segments": [
+      {
+        "high_risk": false,
+        "n": 4977,
+        "paid": 1421,
+        "variant": "C"
+      },
+      {
+        "high_risk": true,
+        "n": 5065,
+        "paid": 582,
+        "variant": "C"
+      },
+      {
+        "high_risk": false,
+        "n": 4978,
+        "paid": 1590,
+        "variant": "T"
+      },
+      {
+        "high_risk": true,
+        "n": 4980,
+        "paid": 725,
+        "variant": "T"
+      }
+    ],
+    "state": "ship"
+  },
+  "early": {
+    "as_of": "2026-01-08T00:00:00+00:00",
+    "checks": {
+      "closed": false,
+      "complete_join": {
+        "C": 0,
+        "T": 0
+      },
+      "event_id_conflicts": 0,
+      "final_at": "2026-01-17T00:00:00+00:00",
+      "missing_outcomes": 20000,
+      "orphan_rows": 0,
+      "raw_event_rows": 10483,
+      "recorded": {
+        "C": 10042,
+        "T": 9958
+      },
+      "recorded_by_arm": {
+        "C": 10042,
+        "T": 9958
+      },
+      "registered": {
+        "C": 10042,
+        "T": 9958
+      },
+      "srm_p_join": null,
+      "srm_p_recorded": 0.5525323815739747,
+      "srm_p_registered": 0.5525323815739747,
+      "unique_attempts": 9958
+    },
+    "comparison": null,
+    "estimates": null,
+    "experiment_id": "reminder-benefit-20000",
+    "reasons": [
+      "horizon_or_arrival_grace_open"
+    ],
+    "role": "operaciones simuladas",
+    "run_id": "c5af6cab2603ccf1ef38fb55628323d479bfcef26c6062bbd4914acccf81e2f1",
+    "segments": [],
+    "state": "pending"
+  },
+  "harm": {
+    "as_of": "2026-01-17T00:00:00+00:00",
+    "checks": {
+      "closed": true,
+      "complete_join": {
+        "C": 9999,
+        "T": 10001
+      },
+      "event_id_conflicts": 0,
+      "final_at": "2026-01-17T00:00:00+00:00",
+      "missing_outcomes": 0,
+      "orphan_rows": 0,
+      "raw_event_rows": 10528,
+      "recorded": {
+        "C": 9999,
+        "T": 10001
+      },
+      "recorded_by_arm": {
+        "C": 9999,
+        "T": 10001
+      },
+      "registered": {
+        "C": 9999,
+        "T": 10001
+      },
+      "srm_p_join": 0.9887165844441503,
+      "srm_p_recorded": 0.9887165844441503,
+      "srm_p_registered": 0.9887165844441503,
+      "unique_attempts": 10001
+    },
+    "comparison": {
+      "control": 9999,
+      "delivered_minus_control": 0.00900702315129473,
+      "high_risk_control": 0.49544954495449545,
+      "high_risk_recipients": 0.36708189769414257,
+      "recipients": 7546
+    },
+    "estimates": {
+      "arms": {
+        "C": {
+          "attempts": 0,
+          "complained": 68,
+          "delivered": 0,
+          "n": 9999,
+          "paid": 1932
+        },
+        "T": {
+          "attempts": 10001,
+          "complained": 75,
+          "delivered": 7546,
+          "n": 10001,
+          "paid": 1871
+        }
+      },
+      "complaint": {
+        "difference": 0.0006985700069857001,
+        "hi": 0.0030700810035927764,
+        "lo": -0.0016606688122352384,
+        "rate_c": 0.006800680068006801,
+        "rate_t": 0.007499250074992501
+      },
+      "cost_sensitivity_cop": {
+        "0": {
+          "difference": -306.9015030690139,
+          "hi": 236.99396103748234,
+          "lo": -850.7366863960627
+        },
+        "100": {
+          "difference": -406.9015030690139,
+          "hi": 136.99396103748234,
+          "lo": -950.7366863960627
+        },
+        "250": {
+          "difference": -556.9015030690139,
+          "hi": -13.006038962517664,
+          "lo": -1100.7366863960629
+        }
+      },
+      "gates": {
+        "cash_above_zero": false,
+        "complaints_below_margin": true,
+        "payment_above_minimum": false
+      },
+      "net_cash_cop": {
+        "difference": -406.9015030690139,
+        "hi": 136.99396103748234,
+        "lo": -950.7366863960627
+      },
+      "payment": {
+        "difference": -0.0061380300613802785,
+        "hi": 0.004739879220749647,
+        "lo": -0.017014733727921255,
+        "rate_c": 0.1932193219321932,
+        "rate_t": 0.18708129187081293
+      },
+      "total_attempt_cost_cop": 1000100
+    },
+    "experiment_id": "reminder-harm-20000",
+    "reasons": [
+      "payment_above_minimum",
+      "cash_above_zero"
+    ],
+    "role": "operaciones simuladas",
+    "run_id": "7d67f4f6047981ec252328326d473ee13b713e3d27023c76400a45dcd8e594c2",
+    "segments": [
+      {
+        "high_risk": false,
+        "n": 5045,
+        "paid": 1400,
+        "variant": "C"
+      },
+      {
+        "high_risk": true,
+        "n": 4954,
+        "paid": 532,
+        "variant": "C"
+      },
+      {
+        "high_risk": false,
+        "n": 5027,
+        "paid": 1319,
+        "variant": "T"
+      },
+      {
+        "high_risk": true,
+        "n": 4974,
+        "paid": 552,
+        "variant": "T"
+      }
+    ],
+    "state": "hold"
+  },
+  "loss": {
+    "as_of": "2026-01-17T00:00:00+00:00",
+    "checks": {
+      "closed": true,
+      "complete_join": {
+        "C": 10042,
+        "T": 6708
+      },
+      "event_id_conflicts": 0,
+      "final_at": "2026-01-17T00:00:00+00:00",
+      "missing_outcomes": 3250,
+      "orphan_rows": 0,
+      "raw_event_rows": 10483,
+      "recorded": {
+        "C": 10042,
+        "T": 9958
+      },
+      "recorded_by_arm": {
+        "C": 10042,
+        "T": 9958
+      },
+      "registered": {
+        "C": 10042,
+        "T": 9958
+      },
+      "srm_p_join": 2.4440044856278803e-146,
+      "srm_p_recorded": 0.5525323815739747,
+      "srm_p_registered": 0.5525323815739747,
+      "unique_attempts": 9958
+    },
+    "comparison": null,
+    "estimates": null,
+    "experiment_id": "reminder-benefit-20000",
+    "reasons": [
+      "missing_mature_outcome",
+      "srm_analytic_join"
+    ],
+    "role": "operaciones simuladas",
+    "run_id": "f029cbd49319c04fe4e51050c9c379e3ed257d9c7438cd148a2ca9d1f4a81d47",
+    "segments": [],
+    "state": "invalid"
+  },
+  "mde": {
+    "as_of": "2026-01-17T00:00:00+00:00",
+    "checks": {
+      "closed": true,
+      "complete_join": {
+        "C": 9917,
+        "T": 10083
+      },
+      "event_id_conflicts": 0,
+      "final_at": "2026-01-17T00:00:00+00:00",
+      "missing_outcomes": 0,
+      "orphan_rows": 0,
+      "raw_event_rows": 10614,
+      "recorded": {
+        "C": 9917,
+        "T": 10083
+      },
+      "recorded_by_arm": {
+        "C": 9917,
+        "T": 10083
+      },
+      "registered": {
+        "C": 9917,
+        "T": 10083
+      },
+      "srm_p_join": 0.24047624306222365,
+      "srm_p_recorded": 0.24047624306222365,
+      "srm_p_registered": 0.24047624306222365,
+      "unique_attempts": 10083
+    },
+    "comparison": {
+      "control": 9917,
+      "delivered_minus_control": 0.057747936887034834,
+      "high_risk_control": 0.5065039830593929,
+      "high_risk_recipients": 0.36754176610978523,
+      "recipients": 7542
+    },
+    "estimates": {
+      "arms": {
+        "C": {
+          "attempts": 0,
+          "complained": 93,
+          "delivered": 0,
+          "n": 9917,
+          "paid": 1923
+        },
+        "T": {
+          "attempts": 10083,
+          "complained": 81,
+          "delivered": 7542,
+          "n": 10083,
+          "paid": 2249
+        }
+      },
+      "complaint": {
+        "difference": -0.0013445126234746304,
+        "hi": 0.0012452153828463532,
+        "lo": -0.00396023944297254,
+        "rate_c": 0.009377836039124735,
+        "rate_t": 0.008033323415650105
+      },
+      "cost_sensitivity_cop": {
+        "0": {
+          "difference": 1456.9623701376793,
+          "hi": 2019.196364754307,
+          "lo": 894.148497578836
+        },
+        "100": {
+          "difference": 1356.9623701376793,
+          "hi": 1919.196364754307,
+          "lo": 794.148497578836
+        },
+        "250": {
+          "difference": 1206.9623701376793,
+          "hi": 1769.196364754307,
+          "lo": 644.148497578836
+        }
+      },
+      "gates": {
+        "cash_above_zero": true,
+        "complaints_below_margin": true,
+        "payment_above_minimum": true
+      },
+      "net_cash_cop": {
+        "difference": 1356.9623701376793,
+        "hi": 1919.196364754307,
+        "lo": 794.148497578836
+      },
+      "payment": {
+        "difference": 0.029139247402753587,
+        "hi": 0.04038392729508614,
+        "lo": 0.01788296995157672,
+        "rate_c": 0.19390944842190178,
+        "rate_t": 0.22304869582465536
+      },
+      "total_attempt_cost_cop": 1008300
+    },
+    "experiment_id": "reminder-mde-20000",
+    "reasons": [
+      "all_prespecified_gates_pass"
+    ],
+    "role": "operaciones simuladas",
+    "run_id": "1dbdf574f0c20ee900a248aba5e0249446c406542761a9205222d3b6f7468e06",
+    "segments": [
+      {
+        "high_risk": false,
+        "n": 4894,
+        "paid": 1317,
+        "variant": "C"
+      },
+      {
+        "high_risk": true,
+        "n": 5023,
+        "paid": 606,
+        "variant": "C"
+      },
+      {
+        "high_risk": false,
+        "n": 5039,
+        "paid": 1552,
+        "variant": "T"
+      },
+      {
+        "high_risk": true,
+        "n": 5044,
+        "paid": 697,
+        "variant": "T"
+      }
+    ],
+    "state": "ship"
+  },
+  "switch": {
+    "as_of": "2026-01-17T00:00:00+00:00",
+    "checks": {
+      "closed": true,
+      "complete_join": {
+        "C": 10042,
+        "T": 9958
+      },
+      "event_id_conflicts": 0,
+      "final_at": "2026-01-17T00:00:00+00:00",
+      "missing_outcomes": 0,
+      "orphan_rows": 0,
+      "raw_event_rows": 10483,
+      "recorded": {
+        "C": 10041,
+        "T": 9959
+      },
+      "recorded_by_arm": {
+        "C": 10041,
+        "T": 9959
+      },
+      "registered": {
+        "C": 10042,
+        "T": 9958
+      },
+      "srm_p_join": 0.5525323815739747,
+      "srm_p_recorded": 0.5620309098445604,
+      "srm_p_registered": 0.5525323815739747,
+      "unique_attempts": 9958
+    },
+    "comparison": null,
+    "estimates": null,
+    "experiment_id": "reminder-benefit-20000",
+    "reasons": [
+      "assignment_changed"
+    ],
+    "role": "operaciones simuladas",
+    "run_id": "d98b23ef502e83624ddacf7cfe8ce807f09218eb72ecabc425586a8f74e0cb1c",
+    "segments": [],
+    "state": "invalid"
+  }
+}

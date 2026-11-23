@@ -1,0 +1,880 @@
+{
+  "case": "faro02-demo",
+  "source_namespace": "payments_cop_synthetic",
+  "data_kind": "synthetic",
+  "currency": "COP",
+  "exponent": 2,
+  "generated_at": "2026-11-18T00:27:58.929783+00:00",
+  "data_sha256": "454c392e3468da7042c53daa6b911e94f0a09a2f4d39a2672f028892ccdad7c7",
+  "metrics": {
+    "receipts": 30,
+    "invalid": 0,
+    "unique_payloads": 29,
+    "identical_payload_repeats": 1,
+    "lot_states": {
+      "reconciled": 5,
+      "provisional": 2,
+      "exception": 3
+    },
+    "lots": 10,
+    "event_states": {
+      "applied": 23,
+      "duplicate_effect": 1,
+      "superseded": 1,
+      "pending_dependency": 2,
+      "rejected": 1
+    },
+    "open_issues": 7,
+    "oldest_issue_seconds": 0.541654,
+    "absolute_unexplained_minor": 5000,
+    "movements": 14
+  },
+  "exceptions": [
+    {
+      "code": "missing_invoice",
+      "subject": "syn_5_a",
+      "blocking": true,
+      "issue_id": "47206174a47187bba5fd",
+      "payout_id": "syn_p5",
+      "currency": "COP",
+      "opened_at": "2026-11-18T00:27:58.388129+00:00",
+      "difference_minor": 5000
+    },
+    {
+      "code": "missing_declared_effect",
+      "subject": "syn_e_5_a",
+      "blocking": true,
+      "issue_id": "5092a7a762db9b426624",
+      "payout_id": "syn_p5",
+      "currency": "COP",
+      "opened_at": "2026-11-18T00:27:58.388129+00:00",
+      "difference_minor": 5000
+    },
+    {
+      "code": "payout_mismatch",
+      "subject": "syn_p5",
+      "blocking": true,
+      "issue_id": "7295d567d323e3d3200f",
+      "payout_id": "syn_p5",
+      "currency": "COP",
+      "opened_at": "2026-11-18T00:27:58.388129+00:00",
+      "difference_minor": 5000
+    },
+    {
+      "code": "event_payload_conflict",
+      "subject": "syn_6_a",
+      "blocking": true,
+      "issue_id": "6003f609e2ee4f651ecc",
+      "payout_id": "syn_p6",
+      "currency": "COP",
+      "opened_at": "2026-11-18T00:27:58.392778+00:00",
+      "difference_minor": 0
+    },
+    {
+      "code": "missing_declared_effect",
+      "subject": "syn_e_6_a",
+      "blocking": true,
+      "issue_id": "c2fc609e0c574fff1b59",
+      "payout_id": "syn_p6",
+      "currency": "COP",
+      "opened_at": "2026-11-18T00:27:58.392778+00:00",
+      "difference_minor": 0
+    },
+    {
+      "code": "refunds_exceed_capture",
+      "subject": "syn_7_r",
+      "blocking": true,
+      "issue_id": "33d337e803e6fa4177d5",
+      "payout_id": "syn_p7",
+      "currency": "COP",
+      "opened_at": "2026-11-18T00:27:58.396653+00:00",
+      "difference_minor": 0
+    },
+    {
+      "code": "missing_declared_effect",
+      "subject": "syn_e_7_r",
+      "blocking": true,
+      "issue_id": "7192726bab0776006e74",
+      "payout_id": "syn_p7",
+      "currency": "COP",
+      "opened_at": "2026-11-18T00:27:58.396653+00:00",
+      "difference_minor": 0
+    }
+  ],
+  "snapshot": {
+    "payouts": [
+      {
+        "payout_id": "syn_p1",
+        "state": "reconciled",
+        "expected_minor": 8700,
+        "declared_minor": 8700,
+        "difference_minor": 0,
+        "statement_effect_id": "syn_e_1_revision",
+        "finalized": true,
+        "issues": [],
+        "event_states": {
+          "syn_1_a": "applied",
+          "syn_1_b": "applied",
+          "syn_1_fee": "applied",
+          "syn_1_alias": "duplicate_effect",
+          "syn_1_payout": "superseded",
+          "syn_1_refund": "applied",
+          "syn_1_revision": "applied"
+        }
+      },
+      {
+        "payout_id": "syn_p10",
+        "state": "reconciled",
+        "expected_minor": 10000,
+        "declared_minor": 10000,
+        "difference_minor": 0,
+        "statement_effect_id": "syn_e_10_payout",
+        "finalized": true,
+        "issues": [],
+        "event_states": {
+          "syn_10_a": "applied",
+          "syn_10_fee": "applied",
+          "syn_10_rev": "applied",
+          "syn_10_payout": "applied"
+        }
+      },
+      {
+        "payout_id": "syn_p2",
+        "state": "reconciled",
+        "expected_minor": 4000,
+        "declared_minor": 4000,
+        "difference_minor": 0,
+        "statement_effect_id": "syn_e_2_payout",
+        "finalized": true,
+        "issues": [],
+        "event_states": {
+          "syn_2_a": "applied",
+          "syn_2_payout": "applied"
+        }
+      },
+      {
+        "payout_id": "syn_p3",
+        "state": "reconciled",
+        "expected_minor": 12000,
+        "declared_minor": 12000,
+        "difference_minor": 0,
+        "statement_effect_id": "syn_e_3_payout",
+        "finalized": true,
+        "issues": [],
+        "event_states": {
+          "syn_3_a": "applied",
+          "syn_3_payout": "applied"
+        }
+      },
+      {
+        "payout_id": "syn_p4",
+        "state": "provisional",
+        "expected_minor": 10000,
+        "declared_minor": 10000,
+        "difference_minor": 0,
+        "statement_effect_id": "syn_e_4_payout",
+        "finalized": false,
+        "issues": [],
+        "event_states": {
+          "syn_4_a": "applied",
+          "syn_4_payout": "applied"
+        }
+      },
+      {
+        "payout_id": "syn_p5",
+        "state": "exception",
+        "expected_minor": 0,
+        "declared_minor": 5000,
+        "difference_minor": 5000,
+        "statement_effect_id": "syn_e_5_payout",
+        "finalized": true,
+        "issues": [
+          {
+            "code": "missing_declared_effect",
+            "subject": "syn_e_5_a",
+            "blocking": true
+          },
+          {
+            "code": "missing_invoice",
+            "subject": "syn_5_a",
+            "blocking": true
+          },
+          {
+            "code": "payout_mismatch",
+            "subject": "syn_p5",
+            "blocking": true
+          }
+        ],
+        "event_states": {
+          "syn_5_a": "pending_dependency",
+          "syn_5_payout": "applied"
+        }
+      },
+      {
+        "payout_id": "syn_p6",
+        "state": "exception",
+        "expected_minor": 0,
+        "declared_minor": 0,
+        "difference_minor": 0,
+        "statement_effect_id": "syn_e_6_payout",
+        "finalized": true,
+        "issues": [
+          {
+            "code": "event_payload_conflict",
+            "subject": "syn_6_a",
+            "blocking": true
+          },
+          {
+            "code": "missing_declared_effect",
+            "subject": "syn_e_6_a",
+            "blocking": true
+          }
+        ],
+        "event_states": {
+          "syn_6_a": "pending_dependency",
+          "syn_6_payout": "applied"
+        }
+      },
+      {
+        "payout_id": "syn_p7",
+        "state": "exception",
+        "expected_minor": 4000,
+        "declared_minor": 4000,
+        "difference_minor": 0,
+        "statement_effect_id": "syn_e_7_payout",
+        "finalized": true,
+        "issues": [
+          {
+            "code": "missing_declared_effect",
+            "subject": "syn_e_7_r",
+            "blocking": true
+          },
+          {
+            "code": "refunds_exceed_capture",
+            "subject": "syn_7_r",
+            "blocking": true
+          }
+        ],
+        "event_states": {
+          "syn_7_a": "applied",
+          "syn_7_r": "rejected",
+          "syn_7_payout": "applied"
+        }
+      },
+      {
+        "payout_id": "syn_p8",
+        "state": "reconciled",
+        "expected_minor": 0,
+        "declared_minor": 0,
+        "difference_minor": 0,
+        "statement_effect_id": "syn_e_8_payout",
+        "finalized": true,
+        "issues": [],
+        "event_states": {
+          "syn_8_a": "applied",
+          "syn_8_rev": "applied",
+          "syn_8_payout": "applied"
+        }
+      },
+      {
+        "payout_id": "syn_p9",
+        "state": "provisional",
+        "expected_minor": 10000,
+        "declared_minor": null,
+        "difference_minor": null,
+        "statement_effect_id": null,
+        "finalized": false,
+        "issues": [],
+        "event_states": {
+          "syn_9_a": "applied"
+        }
+      }
+    ],
+    "invoices": [
+      {
+        "invoice_id": "syn_i1",
+        "original_minor": 10000,
+        "net_collected_minor": 9000,
+        "coverage_difference_minor": 1000,
+        "coverage_state": "partially_covered"
+      },
+      {
+        "invoice_id": "syn_i10",
+        "original_minor": 10000,
+        "net_collected_minor": 10000,
+        "coverage_difference_minor": 0,
+        "coverage_state": "covered"
+      },
+      {
+        "invoice_id": "syn_i2",
+        "original_minor": 10000,
+        "net_collected_minor": 4000,
+        "coverage_difference_minor": 6000,
+        "coverage_state": "partially_covered"
+      },
+      {
+        "invoice_id": "syn_i3",
+        "original_minor": 10000,
+        "net_collected_minor": 12000,
+        "coverage_difference_minor": -2000,
+        "coverage_state": "overpaid"
+      },
+      {
+        "invoice_id": "syn_i4",
+        "original_minor": 10000,
+        "net_collected_minor": 10000,
+        "coverage_difference_minor": 0,
+        "coverage_state": "covered"
+      },
+      {
+        "invoice_id": "syn_i5",
+        "original_minor": 10000,
+        "net_collected_minor": 0,
+        "coverage_difference_minor": 10000,
+        "coverage_state": "uncovered"
+      },
+      {
+        "invoice_id": "syn_i6",
+        "original_minor": 10000,
+        "net_collected_minor": 0,
+        "coverage_difference_minor": 10000,
+        "coverage_state": "uncovered"
+      },
+      {
+        "invoice_id": "syn_i7",
+        "original_minor": 10000,
+        "net_collected_minor": 4000,
+        "coverage_difference_minor": 6000,
+        "coverage_state": "partially_covered"
+      },
+      {
+        "invoice_id": "syn_i8",
+        "original_minor": 10000,
+        "net_collected_minor": 0,
+        "coverage_difference_minor": 10000,
+        "coverage_state": "uncovered"
+      },
+      {
+        "invoice_id": "syn_i9",
+        "original_minor": 10000,
+        "net_collected_minor": 10000,
+        "coverage_difference_minor": 0,
+        "coverage_state": "covered"
+      }
+    ],
+    "movements": [
+      {
+        "effect_id": "syn_e_10_a",
+        "payout_id": "syn_p10",
+        "invoice_id": "syn_i10",
+        "event_id": "syn_10_a",
+        "event_type": "capture",
+        "signed_minor": 10000,
+        "invoice_delta_minor": 10000,
+        "reference_effect_id": null
+      },
+      {
+        "effect_id": "syn_e_10_fee",
+        "payout_id": "syn_p10",
+        "invoice_id": null,
+        "event_id": "syn_10_fee",
+        "event_type": "fee",
+        "signed_minor": -300,
+        "invoice_delta_minor": 0,
+        "reference_effect_id": null
+      },
+      {
+        "effect_id": "syn_e_10_rev",
+        "payout_id": "syn_p10",
+        "invoice_id": null,
+        "event_id": "syn_10_rev",
+        "event_type": "reversal",
+        "signed_minor": 300,
+        "invoice_delta_minor": 0,
+        "reference_effect_id": "syn_e_10_fee"
+      },
+      {
+        "effect_id": "syn_e_1_a",
+        "payout_id": "syn_p1",
+        "invoice_id": "syn_i1",
+        "event_id": "syn_1_a",
+        "event_type": "capture",
+        "signed_minor": 6000,
+        "invoice_delta_minor": 6000,
+        "reference_effect_id": null
+      },
+      {
+        "effect_id": "syn_e_1_b",
+        "payout_id": "syn_p1",
+        "invoice_id": "syn_i1",
+        "event_id": "syn_1_b",
+        "event_type": "capture",
+        "signed_minor": 4000,
+        "invoice_delta_minor": 4000,
+        "reference_effect_id": null
+      },
+      {
+        "effect_id": "syn_e_1_fee",
+        "payout_id": "syn_p1",
+        "invoice_id": null,
+        "event_id": "syn_1_fee",
+        "event_type": "fee",
+        "signed_minor": -300,
+        "invoice_delta_minor": 0,
+        "reference_effect_id": null
+      },
+      {
+        "effect_id": "syn_e_1_refund",
+        "payout_id": "syn_p1",
+        "invoice_id": "syn_i1",
+        "event_id": "syn_1_refund",
+        "event_type": "refund",
+        "signed_minor": -1000,
+        "invoice_delta_minor": -1000,
+        "reference_effect_id": "syn_e_1_b"
+      },
+      {
+        "effect_id": "syn_e_2_a",
+        "payout_id": "syn_p2",
+        "invoice_id": "syn_i2",
+        "event_id": "syn_2_a",
+        "event_type": "capture",
+        "signed_minor": 4000,
+        "invoice_delta_minor": 4000,
+        "reference_effect_id": null
+      },
+      {
+        "effect_id": "syn_e_3_a",
+        "payout_id": "syn_p3",
+        "invoice_id": "syn_i3",
+        "event_id": "syn_3_a",
+        "event_type": "capture",
+        "signed_minor": 12000,
+        "invoice_delta_minor": 12000,
+        "reference_effect_id": null
+      },
+      {
+        "effect_id": "syn_e_4_a",
+        "payout_id": "syn_p4",
+        "invoice_id": "syn_i4",
+        "event_id": "syn_4_a",
+        "event_type": "capture",
+        "signed_minor": 10000,
+        "invoice_delta_minor": 10000,
+        "reference_effect_id": null
+      },
+      {
+        "effect_id": "syn_e_7_a",
+        "payout_id": "syn_p7",
+        "invoice_id": "syn_i7",
+        "event_id": "syn_7_a",
+        "event_type": "capture",
+        "signed_minor": 4000,
+        "invoice_delta_minor": 4000,
+        "reference_effect_id": null
+      },
+      {
+        "effect_id": "syn_e_8_a",
+        "payout_id": "syn_p8",
+        "invoice_id": "syn_i8",
+        "event_id": "syn_8_a",
+        "event_type": "capture",
+        "signed_minor": 5000,
+        "invoice_delta_minor": 5000,
+        "reference_effect_id": null
+      },
+      {
+        "effect_id": "syn_e_8_rev",
+        "payout_id": "syn_p8",
+        "invoice_id": "syn_i8",
+        "event_id": "syn_8_rev",
+        "event_type": "reversal",
+        "signed_minor": -5000,
+        "invoice_delta_minor": -5000,
+        "reference_effect_id": "syn_e_8_a"
+      },
+      {
+        "effect_id": "syn_e_9_a",
+        "payout_id": "syn_p9",
+        "invoice_id": "syn_i9",
+        "event_id": "syn_9_a",
+        "event_type": "capture",
+        "signed_minor": 10000,
+        "invoice_delta_minor": 10000,
+        "reference_effect_id": null
+      }
+    ],
+    "unassigned_issues": []
+  },
+  "detail": {
+    "case_id": "faro02-demo",
+    "payout_id": "syn_p1",
+    "state": "reconciled",
+    "expected_minor": 8700,
+    "declared_minor": 8700,
+    "difference_minor": 0,
+    "statement_effect_id": "syn_e_1_revision",
+    "finalized": true,
+    "issues": [],
+    "event_states": {
+      "syn_1_a": "applied",
+      "syn_1_b": "applied",
+      "syn_1_fee": "applied",
+      "syn_1_alias": "duplicate_effect",
+      "syn_1_payout": "superseded",
+      "syn_1_refund": "applied",
+      "syn_1_revision": "applied"
+    },
+    "unassigned_issues": [],
+    "movements": [
+      {
+        "case_id": "faro02-demo",
+        "effect_id": "syn_e_1_a",
+        "payout_id": "syn_p1",
+        "invoice_id": "syn_i1",
+        "event_id": "syn_1_a",
+        "event_type": "capture",
+        "signed_minor": 6000,
+        "invoice_delta_minor": 6000,
+        "reference_effect_id": null
+      },
+      {
+        "case_id": "faro02-demo",
+        "effect_id": "syn_e_1_b",
+        "payout_id": "syn_p1",
+        "invoice_id": "syn_i1",
+        "event_id": "syn_1_b",
+        "event_type": "capture",
+        "signed_minor": 4000,
+        "invoice_delta_minor": 4000,
+        "reference_effect_id": null
+      },
+      {
+        "case_id": "faro02-demo",
+        "effect_id": "syn_e_1_fee",
+        "payout_id": "syn_p1",
+        "invoice_id": null,
+        "event_id": "syn_1_fee",
+        "event_type": "fee",
+        "signed_minor": -300,
+        "invoice_delta_minor": 0,
+        "reference_effect_id": null
+      },
+      {
+        "case_id": "faro02-demo",
+        "effect_id": "syn_e_1_refund",
+        "payout_id": "syn_p1",
+        "invoice_id": "syn_i1",
+        "event_id": "syn_1_refund",
+        "event_type": "refund",
+        "signed_minor": -1000,
+        "invoice_delta_minor": -1000,
+        "reference_effect_id": "syn_e_1_b"
+      }
+    ],
+    "receipts": [
+      {
+        "receipt_id": 421,
+        "position": 0,
+        "checksum": "1c3d26bd745ece6173dcaa0961f33dc645ee22b68eb056e5f2ceaf47771604f6",
+        "event_id": "syn_1_refund",
+        "feed_id": "aa6109f9ef80f4e327298877a7cb532eda317cf8f077a7787d87a26f366d5696",
+        "received_at": "2026-11-18 00:27:58.315672+00:00",
+        "validation_error": null
+      },
+      {
+        "receipt_id": 422,
+        "position": 1,
+        "checksum": "91eaef0ace1d91089e1d1481ad423b0e0bb4a85f0aae2f1da3be4bee4196c5d8",
+        "event_id": "syn_1_a",
+        "feed_id": "aa6109f9ef80f4e327298877a7cb532eda317cf8f077a7787d87a26f366d5696",
+        "received_at": "2026-11-18 00:27:58.316021+00:00",
+        "validation_error": null
+      },
+      {
+        "receipt_id": 423,
+        "position": 2,
+        "checksum": "91eaef0ace1d91089e1d1481ad423b0e0bb4a85f0aae2f1da3be4bee4196c5d8",
+        "event_id": "syn_1_a",
+        "feed_id": "aa6109f9ef80f4e327298877a7cb532eda317cf8f077a7787d87a26f366d5696",
+        "received_at": "2026-11-18 00:27:58.337901+00:00",
+        "validation_error": null
+      },
+      {
+        "receipt_id": 424,
+        "position": 3,
+        "checksum": "d085b5ad458ac511de3c9f545e940c0eaf02f0536a1f721e3c55f064fe0dc18a",
+        "event_id": "syn_1_alias",
+        "feed_id": "aa6109f9ef80f4e327298877a7cb532eda317cf8f077a7787d87a26f366d5696",
+        "received_at": "2026-11-18 00:27:58.337969+00:00",
+        "validation_error": null
+      },
+      {
+        "receipt_id": 425,
+        "position": 4,
+        "checksum": "0ef53ccd4a9efbfeacd19dce11254b1d52a9253ed77e1ecce43bd32e057d6fe7",
+        "event_id": "syn_1_fee",
+        "feed_id": "aa6109f9ef80f4e327298877a7cb532eda317cf8f077a7787d87a26f366d5696",
+        "received_at": "2026-11-18 00:27:58.341900+00:00",
+        "validation_error": null
+      },
+      {
+        "receipt_id": 426,
+        "position": 5,
+        "checksum": "847664cc81ea70a7bc62362b02361d5c7dde9d88c851d8c857a3ec88378f8b68",
+        "event_id": "syn_1_payout",
+        "feed_id": "aa6109f9ef80f4e327298877a7cb532eda317cf8f077a7787d87a26f366d5696",
+        "received_at": "2026-11-18 00:27:58.341929+00:00",
+        "validation_error": null
+      },
+      {
+        "receipt_id": 427,
+        "position": 6,
+        "checksum": "8ef4bdfb1d00016b01b3183373d899d826251a86c66efc58cea336587ab84fdd",
+        "event_id": "syn_1_b",
+        "feed_id": "aa6109f9ef80f4e327298877a7cb532eda317cf8f077a7787d87a26f366d5696",
+        "received_at": "2026-11-18 00:27:58.368828+00:00",
+        "validation_error": null
+      },
+      {
+        "receipt_id": 429,
+        "position": 7,
+        "checksum": "4b19aa498fd25820f6ca2ba8f4a8aea272f11a32b498d63edefdd28aaf370c5a",
+        "event_id": "syn_1_revision",
+        "feed_id": "aa6109f9ef80f4e327298877a7cb532eda317cf8f077a7787d87a26f366d5696",
+        "received_at": "2026-11-18 00:27:58.378263+00:00",
+        "validation_error": null
+      }
+    ],
+    "audit": [
+      {
+        "audit_id": 228,
+        "case_id": "faro02-demo",
+        "payout_id": "syn_p1",
+        "action": "projection",
+        "actor": "processor",
+        "reason": "Recomputed from immutable receipts",
+        "evidence": {
+          "state": "provisional",
+          "issues": [
+            {
+              "code": "missing_capture",
+              "subject": "syn_1_refund",
+              "blocking": true
+            }
+          ],
+          "from_state": null,
+          "transitions": {
+            "syn_1_a": [
+              "received",
+              "applied"
+            ],
+            "syn_1_refund": [
+              "received",
+              "pending_dependency"
+            ]
+          },
+          "previous_issues": [],
+          "difference_minor": null,
+          "statement_effect_id": null
+        },
+        "recorded_at": "2026-11-18 00:27:58.322123+00:00"
+      },
+      {
+        "audit_id": 229,
+        "case_id": "faro02-demo",
+        "payout_id": "syn_p1",
+        "action": "projection",
+        "actor": "processor",
+        "reason": "Recomputed from immutable receipts",
+        "evidence": {
+          "state": "provisional",
+          "issues": [
+            {
+              "code": "missing_capture",
+              "subject": "syn_1_refund",
+              "blocking": true
+            }
+          ],
+          "from_state": "provisional",
+          "transitions": {
+            "syn_1_alias": [
+              "received",
+              "duplicate_effect"
+            ]
+          },
+          "previous_issues": [
+            {
+              "code": "missing_capture",
+              "subject": "syn_1_refund",
+              "blocking": true
+            }
+          ],
+          "difference_minor": null,
+          "statement_effect_id": null
+        },
+        "recorded_at": "2026-11-18 00:27:58.339759+00:00"
+      },
+      {
+        "audit_id": 230,
+        "case_id": "faro02-demo",
+        "payout_id": "syn_p1",
+        "action": "projection",
+        "actor": "processor",
+        "reason": "Recomputed from immutable receipts",
+        "evidence": {
+          "state": "exception",
+          "issues": [
+            {
+              "code": "missing_capture",
+              "subject": "syn_1_refund",
+              "blocking": true
+            },
+            {
+              "code": "missing_declared_effect",
+              "subject": "syn_e_1_b",
+              "blocking": true
+            },
+            {
+              "code": "missing_declared_effect",
+              "subject": "syn_e_1_refund",
+              "blocking": true
+            },
+            {
+              "code": "payout_mismatch",
+              "subject": "syn_p1",
+              "blocking": true
+            }
+          ],
+          "from_state": "provisional",
+          "transitions": {
+            "syn_1_fee": [
+              "received",
+              "applied"
+            ],
+            "syn_1_payout": [
+              "received",
+              "applied"
+            ]
+          },
+          "previous_issues": [
+            {
+              "code": "missing_capture",
+              "subject": "syn_1_refund",
+              "blocking": true
+            }
+          ],
+          "difference_minor": 2900,
+          "statement_effect_id": "syn_e_1_payout"
+        },
+        "recorded_at": "2026-11-18 00:27:58.343691+00:00"
+      },
+      {
+        "audit_id": 231,
+        "case_id": "faro02-demo",
+        "payout_id": "syn_p1",
+        "action": "projection",
+        "actor": "processor",
+        "reason": "Recomputed from immutable receipts",
+        "evidence": {
+          "state": "exception",
+          "issues": [
+            {
+              "code": "payout_mismatch",
+              "subject": "syn_p1",
+              "blocking": true
+            }
+          ],
+          "from_state": "exception",
+          "transitions": {
+            "syn_1_b": [
+              "received",
+              "applied"
+            ],
+            "syn_1_refund": [
+              "pending_dependency",
+              "applied"
+            ]
+          },
+          "previous_issues": [
+            {
+              "code": "missing_capture",
+              "subject": "syn_1_refund",
+              "blocking": true
+            },
+            {
+              "code": "missing_declared_effect",
+              "subject": "syn_e_1_b",
+              "blocking": true
+            },
+            {
+              "code": "missing_declared_effect",
+              "subject": "syn_e_1_refund",
+              "blocking": true
+            },
+            {
+              "code": "payout_mismatch",
+              "subject": "syn_p1",
+              "blocking": true
+            }
+          ],
+          "difference_minor": -100,
+          "statement_effect_id": "syn_e_1_payout"
+        },
+        "recorded_at": "2026-11-18 00:27:58.370569+00:00"
+      },
+      {
+        "audit_id": 233,
+        "case_id": "faro02-demo",
+        "payout_id": "syn_p1",
+        "action": "projection",
+        "actor": "processor",
+        "reason": "Recomputed from immutable receipts",
+        "evidence": {
+          "state": "reconciled",
+          "issues": [],
+          "from_state": "exception",
+          "transitions": {
+            "syn_1_payout": [
+              "applied",
+              "superseded"
+            ],
+            "syn_1_revision": [
+              "received",
+              "applied"
+            ]
+          },
+          "previous_issues": [
+            {
+              "code": "payout_mismatch",
+              "subject": "syn_p1",
+              "blocking": true
+            }
+          ],
+          "difference_minor": 0,
+          "statement_effect_id": "syn_e_1_revision"
+        },
+        "recorded_at": "2026-11-18 00:27:58.380026+00:00"
+      },
+      {
+        "audit_id": 246,
+        "case_id": "faro02-demo",
+        "payout_id": "syn_p1",
+        "action": "resolution",
+        "actor": "analista_faro",
+        "reason": "La declaración revisada coincide con captura, devolución y comisión.",
+        "evidence": {
+          "actor": "analista_faro",
+          "state": "reconciled",
+          "reason": "La declaración revisada coincide con captura, devolución y comisión.",
+          "issue_id": "0a23654b5de90a0ce3af",
+          "payout_id": "syn_p1",
+          "issue_audit_id": 231,
+          "difference_minor": 0,
+          "evidence_effect_id": "syn_e_1_revision"
+        },
+        "recorded_at": "2026-11-18 00:27:58.926841+00:00"
+      }
+    ]
+  }
+}

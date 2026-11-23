@@ -1,0 +1,91 @@
+{
+  "observed_batch": {
+    "alerts": [],
+    "ks": {
+      "BILL_AMT1": 0.007888888888888945,
+      "LIMIT_BAL": 0.014333333333333309,
+      "PAY_0": 0.013777777777777778,
+      "PAY_AMT1": 0.013888888888888895
+    },
+    "missing_fraction": {
+      "BILL_AMT1": 0.0,
+      "BILL_AMT2": 0.0,
+      "BILL_AMT3": 0.0,
+      "BILL_AMT4": 0.0,
+      "BILL_AMT5": 0.0,
+      "BILL_AMT6": 0.0,
+      "LIMIT_BAL": 0.0,
+      "PAY_0": 0.0,
+      "PAY_2": 0.0,
+      "PAY_3": 0.0,
+      "PAY_4": 0.0,
+      "PAY_5": 0.0,
+      "PAY_6": 0.0,
+      "PAY_AMT1": 0.0,
+      "PAY_AMT2": 0.0,
+      "PAY_AMT3": 0.0,
+      "PAY_AMT4": 0.0,
+      "PAY_AMT5": 0.0,
+      "PAY_AMT6": 0.0
+    },
+    "n": 6000,
+    "score_range": [
+      0.021831464513730612,
+      0.8795311224857117
+    ],
+    "state": "publish"
+  },
+  "simulated_label_delay": [
+    {
+      "available": 0,
+      "days": 7,
+      "simulated": true,
+      "state": "awaiting_labels"
+    },
+    {
+      "available": 6000,
+      "brier": 0.13234093638157404,
+      "days": 30,
+      "simulated": true,
+      "state": "mature"
+    }
+  ],
+  "synthetic_limit_shift": {
+    "alerts": [
+      "shift:LIMIT_BAL"
+    ],
+    "ks": {
+      "BILL_AMT1": 0.007888888888888945,
+      "LIMIT_BAL": 0.8484444444444444,
+      "PAY_0": 0.013777777777777778,
+      "PAY_AMT1": 0.013888888888888895
+    },
+    "missing_fraction": {
+      "BILL_AMT1": 0.0,
+      "BILL_AMT2": 0.0,
+      "BILL_AMT3": 0.0,
+      "BILL_AMT4": 0.0,
+      "BILL_AMT5": 0.0,
+      "BILL_AMT6": 0.0,
+      "LIMIT_BAL": 0.0,
+      "PAY_0": 0.0,
+      "PAY_2": 0.0,
+      "PAY_3": 0.0,
+      "PAY_4": 0.0,
+      "PAY_5": 0.0,
+      "PAY_6": 0.0,
+      "PAY_AMT1": 0.0,
+      "PAY_AMT2": 0.0,
+      "PAY_AMT3": 0.0,
+      "PAY_AMT4": 0.0,
+      "PAY_AMT5": 0.0,
+      "PAY_AMT6": 0.0
+    },
+    "n": 6000,
+    "score_range": [
+      0.020657696520753582,
+      0.8507855640293241
+    ],
+    "state": "suspend"
+  }
+}

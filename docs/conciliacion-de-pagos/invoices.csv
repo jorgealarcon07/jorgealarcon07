@@ -1,0 +1,11 @@
+invoice_id,original_minor,net_collected_minor,coverage_difference_minor,coverage_state
+syn_i1,10000,9000,1000,partially_covered
+syn_i10,10000,10000,0,covered
+syn_i2,10000,4000,6000,partially_covered
+syn_i3,10000,12000,-2000,overpaid
+syn_i4,10000,10000,0,covered
+syn_i5,10000,0,10000,uncovered
+syn_i6,10000,0,10000,uncovered
+syn_i7,10000,4000,6000,partially_covered
+syn_i8,10000,0,10000,uncovered
+syn_i9,10000,10000,0,covered

@@ -1,56 +1,51 @@
-<div align="center">
-<h1 align="center">Helouuu, I'm <a href="www.linkedin.com/in/jorgealarconp">Jorge Alarcon</a> 🙋‍♂️</h1>
-</div>
-<img src="https://i.imgur.com/ZBhEqoj.png" alt="Profile Image">
+# Jorge Alarcón
 
-## About me
-- 🚀 Physicist focused on Complex Systems 🚀
-- 📊 Data analysis and NLP enthusiast
-- 🎓 Aspiring Machine Learning Engineer
-- 💡 Driven by curiosity and a passion for technology
-<br>
+**Data Engineer · Data Scientist** | Físico con enfoque en sistemas complejos. [LinkedIn](https://www.linkedin.com/in/jorgealarconp/)
 
-## Top Projects
-<table border="0" cellspacing="10" cellpadding="10" align="center" style="border-collapse:collapse; width:100%;">
-  <tr>
-    <td colspan="2" align="center">
-      <h3>Tracking Performance in a Financial Fraud Detection System</h3>
-      <a href="https://github.com/jorgealarcon07/jorgealarcon07/blob/main/Monitoring%20a%20Financial%20Fraud%20Detection%20System/Monitoring_A_Detection_Model.ipynb"
-         target="_blank">
-        <img src="https://i.imgur.com/yTjctmo.jpeg" width="400" alt="Main Project">
-      </a>
-      <p>
-        <a href="https://github.com/jorgealarcon07/jorgealarcon07/blob/main/Monitoring%20a%20Financial%20Fraud%20Detection%20System/Monitoring_A_Detection_Model.ipynb" target="_blank">
-          <img src="https://img.shields.io/badge/CÓDIGO-80ffaa?style=for-the-badge&logo=github&logoColor=black">
-        </a>
-      </p>
-      <p>This project simulates the role of a post-deployment data scientist for a UK bank, monitoring the performance of their fraud detection model. By analyzing data, it identifies why the model underperforms and offers insights to enhance its accuracy, improving fraud prevention and customer protection.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <h3>Hypothesis Testing on World Cup Goals</h3>
-      <a href="https://github.com/jorgealarcon07/jorgealarcon07/blob/main/5_Hypothesis_testing.ipynb" target="_blank">
-        <img src="https://i.imgur.com/vTTolEn.jpeg" width="300" alt="Hypothesis Testing on World Cup goals">
-      </a>
-      <p>
-        <a href="https://github.com/jorgealarcon07/jorgealarcon07/blob/main/5_Hypothesis_testing.ipynb" target="_blank">
-          <img src="https://img.shields.io/badge/CÓDIGO-ff9?style=for-the-badge&logo=github&logoColor=black">
-        </a>
-      </p>
-      <p>This project explores whether women's soccer matches see more goals than men's by conducting a hypothesis test on World Cup data. The analysis provides insights into goal-scoring trends across genders, utilizing statistical methods to test the hypothesis.</p>
-    </td>
-    <td width="50%" align="center">
-      <h3>Los Angeles Crime Data Analysis</h3>
-      <a href="https://github.com/jorgealarcon07/jorgealarcon07/blob/main/4_crimes_los_angeles.ipynb" target="_blank">
-        <img src="https://i.imgur.com/GgQBo3w.jpeg" width="300" alt="Los Angeles Crime Data Analysis">
-      </a>
-      <p>
-        <a href="https://github.com/jorgealarcon07/jorgealarcon07/blob/main/4_crimes_los_angeles.ipynb" target="_blank">
-          <img src="https://img.shields.io/badge/CÓDIGO-80ffaa?style=for-the-badge&logo=github&logoColor=black">
-        </a>
-      </p>
-      <p>By examining patterns and trends in crime data, this project aims to provide actionable recommendations for improving crime prevention and response efforts in the city. The goal is to leverage data insights to enhance public safety and effectively target resources in Los Angeles.</p>
-    </td>
-  </tr>
-</table>
+Trabajo con **Python y SQL** para construir procesos de datos confiables y evaluar decisiones con modelos y experimentos.
+
+![Python](assets/stack/python.svg) ![SQL · PostgreSQL](assets/stack/postgresql.svg) ![dbt](assets/stack/dbt.svg) ![scikit-learn](assets/stack/scikitlearn.svg) ![MLflow](assets/stack/mlflow.svg)
+
+## Proyectos
+
+Faro es una empresa ficticia de comercio y pagos. Estos cuatro casos se pueden explorar por separado. [Ver los cuatro informes en el navegador](https://jorgealarcon07.github.io/jorgealarcon07/)
+
+### [Cierre de ventas](https://github.com/jorgealarcon07/faro-data-foundation) · Data Engineering
+
+**¿Qué ventas podemos dar por cerradas?** Construí un proceso que separa ventas, cancelaciones y ajustes, comprueba los totales y avisa a finanzas cuando faltan datos.
+
+![Python](assets/stack/python.svg) ![SQL · PostgreSQL](assets/stack/postgresql.svg) ![dbt](assets/stack/dbt.svg) ![Parquet](assets/stack/apacheparquet.svg)
+
+El cierre cuadró en 1.798 grupos de fecha y tipo de movimiento. De 1.067.371 filas, 243.007 carecían de cliente identificado, así que el informe quedó provisional.
+
+[Ver el informe](https://jorgealarcon07.github.io/jorgealarcon07/cierre-de-ventas/) · [Explorar el proyecto](https://github.com/jorgealarcon07/faro-data-foundation)
+
+### [Conciliación de pagos](https://github.com/jorgealarcon07/faro-reconciliation) · Data Engineering
+
+**¿Qué abonos cuadran con lo que se cobró?** Construí una conciliación que compara cobros y abonos, reconoce mensajes repetidos y entrega a tesorería una lista de diferencias con su historial.
+
+![Python](assets/stack/python.svg) ![SQL · PostgreSQL](assets/stack/postgresql.svg) ![API HTTP](assets/stack/http.svg) ![pytest](assets/stack/pytest.svg)
+
+En una prueba de 100.000 entregas simuladas, detectó los 325 lotes con diferencias sembradas. Ninguno de esos lotes se marcó como conciliado.
+
+[Ver el informe](https://jorgealarcon07.github.io/jorgealarcon07/conciliacion-de-pagos/) · [Explorar el proyecto](https://github.com/jorgealarcon07/faro-reconciliation)
+
+### [Priorización de cuentas](https://github.com/jorgealarcon07/faro-risk-policy) · Data Science
+
+**Si solo podemos revisar 300 cuentas, ¿por cuáles empezamos?** Construí una cola de revisión y comparé una regla de atraso con dos modelos. El equipo de riesgo puede ver qué cambia al dedicar más o menos revisiones.
+
+![Python](assets/stack/python.svg) ![scikit-learn](assets/stack/scikitlearn.svg) ![MLflow](assets/stack/mlflow.svg) ![SQL · PostgreSQL](assets/stack/postgresql.svg)
+
+Entre las primeras 300 de 6.000 cuentas de prueba hubo 232 impagos históricos con regresión logística, 227 con boosting y 215 con la regla de atraso.
+
+[Ver el informe](https://jorgealarcon07.github.io/jorgealarcon07/revision-de-riesgo/) · [Explorar el proyecto](https://github.com/jorgealarcon07/faro-risk-policy)
+
+### [Experimento de recordatorios](https://github.com/jorgealarcon07/faro-experiment-lab) · Data Science
+
+**¿Vale la pena enviar otro recordatorio de pago?** Construí un ensayo A/B que mide pagos a 14 días, costo de envío y quejas. Operaciones recibe una recomendación y puede ver qué datos la sustentan.
+
+![Python](assets/stack/python.svg) ![SciPy](assets/stack/scipy.svg) ![statsmodels](assets/stack/statsmodels.svg) ![SQL · PostgreSQL](assets/stack/postgresql.svg)
+
+En el escenario favorable de 20.000 cuentas simuladas, el grupo asignado al recordatorio pagó 3,30 puntos porcentuales más. Al retirar 3.250 resultados, el sistema bloqueó la recomendación.
+
+[Ver el informe](https://jorgealarcon07.github.io/jorgealarcon07/experimento-de-recordatorios/) · [Explorar el proyecto](https://github.com/jorgealarcon07/faro-experiment-lab)

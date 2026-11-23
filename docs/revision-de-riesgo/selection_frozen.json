@@ -1,0 +1,148 @@
+{
+  "bootstrap": 1000,
+  "candidate": {
+    "cv_ap": 0.5557219338425117,
+    "fold_ap": [
+      0.5777658752063507,
+      0.5565091423018458,
+      0.5692234469421246,
+      0.5423359798251607,
+      0.5327752249370771
+    ],
+    "kind": "boost",
+    "param": 15,
+    "run_id": "c83d049d46ed4de5a3a2b9a562456c8c",
+    "validation_ap": 0.5536687935394855,
+    "validation_brier": 0.1348941375969812
+  },
+  "eligible": true,
+  "feature_names": [
+    "LIMIT_BAL",
+    "PAY_0",
+    "PAY_2",
+    "PAY_3",
+    "PAY_4",
+    "PAY_5",
+    "PAY_6",
+    "BILL_AMT1",
+    "BILL_AMT2",
+    "BILL_AMT3",
+    "BILL_AMT4",
+    "BILL_AMT5",
+    "BILL_AMT6",
+    "PAY_AMT1",
+    "PAY_AMT2",
+    "PAY_AMT3",
+    "PAY_AMT4",
+    "PAY_AMT5",
+    "PAY_AMT6",
+    "late_months",
+    "unmapped_statuses",
+    "bill_limit",
+    "paid_prior_bill"
+  ],
+  "grid": [
+    {
+      "cv_ap": 0.5289082337631552,
+      "fold_ap": [
+        0.5390127329612329,
+        0.5326680761322539,
+        0.5409140566595284,
+        0.5193360256872899,
+        0.512610277375471
+      ],
+      "kind": "logistic",
+      "param": 0.01,
+      "run_id": "249ccf614d4540eea286bb86f8a2e98b",
+      "validation_ap": 0.537042266122512,
+      "validation_brier": 0.13755694118502756
+    },
+    {
+      "cv_ap": 0.5340212668993088,
+      "fold_ap": [
+        0.5445598445820256,
+        0.5408204805913653,
+        0.5468944262532898,
+        0.5238699758671266,
+        0.5139616072027371
+      ],
+      "kind": "logistic",
+      "param": 0.1,
+      "run_id": "ec2ea4056fdf44efb78eb97f212f812d",
+      "validation_ap": 0.5383522939450057,
+      "validation_brier": 0.13698106424234996
+    },
+    {
+      "cv_ap": 0.5348654698161824,
+      "fold_ap": [
+        0.5482164708384166,
+        0.5363183069126385,
+        0.5504494640031146,
+        0.5232225462195698,
+        0.5161205611071726
+      ],
+      "kind": "logistic",
+      "param": 1.0,
+      "run_id": "19e3435e0bf04c94b3fad44521d3772d",
+      "validation_ap": 0.5348430169522544,
+      "validation_brier": 0.13701590151794296
+    },
+    {
+      "cv_ap": 0.556806404477376,
+      "fold_ap": [
+        0.5739289087447641,
+        0.5546388732700562,
+        0.5765267589027564,
+        0.5387190723716876,
+        0.5402184090976151
+      ],
+      "kind": "boost",
+      "param": 7,
+      "run_id": "5978bb647546458a8485c281fd848657",
+      "validation_ap": 0.5522589121619762,
+      "validation_brier": 0.1346565526698348
+    },
+    {
+      "cv_ap": 0.5557219338425117,
+      "fold_ap": [
+        0.5777658752063507,
+        0.5565091423018458,
+        0.5692234469421246,
+        0.5423359798251607,
+        0.5327752249370771
+      ],
+      "kind": "boost",
+      "param": 15,
+      "run_id": "c83d049d46ed4de5a3a2b9a562456c8c",
+      "validation_ap": 0.5536687935394855,
+      "validation_brier": 0.1348941375969812
+    }
+  ],
+  "model_hashes": {
+    "boost": "f3559198b5ca484104c435fee519993eaa0069168208b4e47ae3dbeef27e989f",
+    "logistic": "79514856360f8e428121f158d464bdcb7dfb500fee9ed06acca7ed41235dfc6b"
+  },
+  "primary_capacity_pct": 5,
+  "reference": {
+    "cv_ap": 0.5340212668993088,
+    "fold_ap": [
+      0.5445598445820256,
+      0.5408204805913653,
+      0.5468944262532898,
+      0.5238699758671266,
+      0.5139616072027371
+    ],
+    "kind": "logistic",
+    "param": 0.1,
+    "run_id": "ec2ea4056fdf44efb78eb97f212f812d",
+    "validation_ap": 0.5383522939450057,
+    "validation_brier": 0.13698106424234996
+  },
+  "seed": 2026,
+  "split_sha256": "d0193dc7cb67b770f30703ba4d32cbb276eb1121b0be565862acf97559adf04a",
+  "test_gate": "validation eligible and AP delta CI95 lower > 0 and Brier <= LR",
+  "train_feature_sha256": "7c6e6c8a455f8a53d7d10439fb93010ea2c5ccf5b42f2f1483ae9009ac359df6",
+  "train_n": 18000,
+  "training_prevalence": 0.2212222222222222,
+  "validation_n": 6000
+}

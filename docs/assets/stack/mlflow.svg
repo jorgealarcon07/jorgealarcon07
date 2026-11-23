@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="30" viewBox="0 0 90 30" role="img" aria-label="MLflow">
+<title>MLflow</title><rect x="0.5" y="0.5" width="89" height="29" rx="6" fill="#152C32" stroke="#577177"/>
+<g transform="translate(9 6) scale(.75)" fill="#9DB9FF" color="#9DB9FF"><path d="M11.883.002a12.044 12.044 0 0 0-9.326 19.463l3.668-2.694A7.573 7.573 0 0 1 12.043 4.45v2.867l6.908-5.14A12.012 12.012 0 0 0 11.883.002zm9.562 4.533L17.777 7.23a7.573 7.573 0 0 1-5.818 12.322v-2.867l-6.908 5.14a12.046 12.046 0 0 0 16.394-17.29z"/></g>
+<text x="34" y="19.5" fill="#F4F8F6" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="600">MLflow</text></svg>

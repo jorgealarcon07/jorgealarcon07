@@ -1,0 +1,171 @@
+{
+  "aa_in_band": true,
+  "coverage_in_band": {
+    "aa": true,
+    "benefit": true,
+    "complaint": true,
+    "harm": true,
+    "mde": true
+  },
+  "per_scenario": 1000,
+  "power": {
+    "alpha": 0.05,
+    "alternative": 0.22,
+    "approx_power_at_planned_n": 0.9348618247291174,
+    "baseline": 0.2,
+    "expected_per_arm": 10000.0,
+    "method": "two-sided normal approximation, arcsine effect size, balanced arms",
+    "per_arm_required": 6508,
+    "planned_n": 20000,
+    "target_power": 0.8
+  },
+  "root_seed": 20261122,
+  "scenarios": {
+    "aa": {
+      "bias": 0.0001643381305744442,
+      "bias_mcse": 0.00018121117337818176,
+      "cover": {
+        "mcse_all": 0.006624499981130654,
+        "rate_all": 0.954,
+        "rate_valid": 0.953953953953954
+      },
+      "invalid_srm": 1,
+      "n_replicas": 1000,
+      "primary_above_minimum": {
+        "mcse_all": 0.0,
+        "rate_all": 0.0,
+        "rate_valid": 0.0
+      },
+      "reject_zero": {
+        "mcse_all": 0.006624499981130651,
+        "rate_all": 0.046,
+        "rate_valid": 0.04604604604604605
+      },
+      "ship": {
+        "mcse_all": 0.0,
+        "rate_all": 0.0,
+        "rate_valid": 0.0
+      },
+      "truth_complaint": 0.0,
+      "truth_payment": 0.0,
+      "valid": 999
+    },
+    "benefit": {
+      "bias": -0.00017090861322020465,
+      "bias_mcse": 0.0001768043895313896,
+      "cover": {
+        "mcse_all": 0.005730968504537434,
+        "rate_all": 0.966,
+        "rate_valid": 0.9659318637274549
+      },
+      "invalid_srm": 2,
+      "n_replicas": 1000,
+      "primary_above_minimum": {
+        "mcse_all": 0.0077958322198467015,
+        "rate_all": 0.935,
+        "rate_valid": 0.9348697394789579
+      },
+      "reject_zero": {
+        "mcse_all": 0.0009994998749374613,
+        "rate_all": 0.999,
+        "rate_valid": 0.998997995991984
+      },
+      "ship": {
+        "mcse_all": 0.008958571314668425,
+        "rate_all": 0.912,
+        "rate_valid": 0.9138276553106213
+      },
+      "truth_complaint": 0.0,
+      "truth_payment": 0.03,
+      "valid": 998
+    },
+    "complaint": {
+      "bias": 0.0004254669175247465,
+      "bias_mcse": 0.00017617269603740221,
+      "cover": {
+        "mcse_all": 0.006270486424512857,
+        "rate_all": 0.959,
+        "rate_valid": 0.958958958958959
+      },
+      "invalid_srm": 1,
+      "n_replicas": 1000,
+      "primary_above_minimum": {
+        "mcse_all": 0.007084560677981384,
+        "rate_all": 0.947,
+        "rate_valid": 0.9469469469469469
+      },
+      "reject_zero": {
+        "mcse_all": 0.0,
+        "rate_all": 1.0,
+        "rate_valid": 1.0
+      },
+      "ship": {
+        "mcse_all": 0.0,
+        "rate_all": 0.0,
+        "rate_valid": 0.0
+      },
+      "truth_complaint": 0.012,
+      "truth_payment": 0.03,
+      "valid": 999
+    },
+    "harm": {
+      "bias": 0.00017641988175375392,
+      "bias_mcse": 0.00017270861360567293,
+      "cover": {
+        "mcse_all": 0.00655553201502365,
+        "rate_all": 0.955,
+        "rate_valid": 0.9548192771084337
+      },
+      "invalid_srm": 4,
+      "n_replicas": 1000,
+      "primary_above_minimum": {
+        "mcse_all": 0.0,
+        "rate_all": 0.0,
+        "rate_valid": 0.0
+      },
+      "reject_zero": {
+        "mcse_all": 0.00619677335393187,
+        "rate_all": 0.96,
+        "rate_valid": 0.9598393574297188
+      },
+      "ship": {
+        "mcse_all": 0.0,
+        "rate_all": 0.0,
+        "rate_valid": 0.0
+      },
+      "truth_complaint": 0.0,
+      "truth_payment": -0.02,
+      "valid": 996
+    },
+    "mde": {
+      "bias": -0.00016543137132491934,
+      "bias_mcse": 0.00019448924938547603,
+      "cover": {
+        "mcse_all": 0.008068457101577721,
+        "rate_all": 0.93,
+        "rate_valid": 0.92992992992993
+      },
+      "invalid_srm": 1,
+      "n_replicas": 1000,
+      "primary_above_minimum": {
+        "mcse_all": 0.01558666096378567,
+        "rate_all": 0.416,
+        "rate_valid": 0.4164164164164164
+      },
+      "reject_zero": {
+        "mcse_all": 0.008579044235810886,
+        "rate_all": 0.92,
+        "rate_valid": 0.91991991991992
+      },
+      "ship": {
+        "mcse_all": 0.015517216245190372,
+        "rate_all": 0.404,
+        "rate_valid": 0.4044044044044044
+      },
+      "truth_complaint": 0.0,
+      "truth_payment": 0.02,
+      "valid": 999
+    }
+  },
+  "seed_recipe": "SeedSequence([root_seed, stream]).spawn(per_scenario)[replica]"
+}

@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="83" height="30" viewBox="0 0 83 30" role="img" aria-label="pytest">
+<title>pytest</title><rect x="0.5" y="0.5" width="82" height="29" rx="6" fill="#152C32" stroke="#577177"/>
+<g transform="translate(9 6) scale(.75)" fill="#91C8EF" color="#91C8EF"><path d="M2.6152 0v.8867h3.8399V0zm5.0215 0v.8867h3.8418V0zm4.957 0v.8867h3.8418V0zm4.9356 0v.8867h3.8418V0zM2.4473 1.8945a.935.935 0 0 0-.9356.9356c0 .517.4185.9375.9356.9375h19.1054c.5171 0 .9356-.4204.9356-.9375a.935.935 0 0 0-.9356-.9356zm.168 2.8477V24H6.455V4.7422zm5.0214 0V20.543h3.8418V4.7422zm4.957 0V15.291h3.8497V4.7422zm4.9356 0v6.4941h3.8418V4.7422z"/></g>
+<text x="34" y="19.5" fill="#F4F8F6" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="600">pytest</text></svg>
